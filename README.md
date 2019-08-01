@@ -1,30 +1,31 @@
 # Challenges (under construction)
 
-In order to become an employee here at ZRP you need to prove to our team, a select group of extremely competent workers, that you are able to do the tasks that you will assume.
+In order to become an employee here at ZRP you need to prove to our team, a group of extremely competent people, that you will be able to analyze, predict and perform any given task.
 
-For each area here at ZRP you will have to pass in one challenge. Each area has three levels of challenges, *easy*, *normal* and *hard*. You can choose your destiny and submit the challenge that you think that fits into your profile.
+For any given job description, you have three different challenges, an *easy*, a *normal* and a *hard* challenge. You can submit whatever test you think fits your profile.
 
 ## How to submit
 
-Each area and each level has its own rule to submit the challenge. Read the instructions and send us an email at jobs@zrp.com.br if you have any doubts
+Each area and each level has it's own rule for submission. Read the following instructions and the challenge instructions.
+
+> Have any doubts? Send an e-mail to [jobs@zrp.com.br](jobs@zrp.com.br).
 
 ## How the process work
 
 ### First Phase - The selection
 
-In the first phase you will talk with one of our partners that will evaluate if there is a fit with the company culture. We care for helpful, proactive, communicative and interested in learning people.
+In the first phase you will be evaluated by one of our partners. The main goal of this evaluation is to see if there is a fit with the company culture. We care for helpful, proactive, communicative, interested in learning and knowledgeable people.
 
 ### Second Phase - The challenge
 
-If you pass in the first phase you got to choose the challenge that you want to submit and will say to us 
-a prediction of how long you will deliver the challenge. You can take your time and submit it wherever you want to. 
+If you pass the first phase you got to choose the challenge that you want to submit, alongside a prediction of how long will you take to deliver the challenge. There is no time limit for submission.
 
-Some members of our team will select you if:
+After your submission our team will decide if you:
 
-- You have a good prediction of the time you need to submit the challenge
-- You solved the main problem
-- You met the evaluation criteria
+- Had a good prediction on the time required to perform the challenge
+- Had solved the main problem proposed by the challenge
+- Had met our evaluation criteria
 
 ### Third Phase - Feedback
 
-For those who have passed in the Second Phase there will be a call in which the members that reviewed your challenge will give a brief feedback saying if you are hired or not and why you are hired or not. 
+For those who have submitted the second phase there will be a review conduct by our team and a brief feedback saying if you are hired or not and why you are hired or not.
