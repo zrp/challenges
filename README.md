@@ -18,13 +18,13 @@ In the first phase you will be evaluated by one of our partners. The main goal o
 
 ### Second Phase - The challenge
 
-If you pass the first phase you got to choose the challenge that you want to submit, alongside a prediction of how long will you take to deliver the challenge. There is no time limit for submission.
+If you pass the first phase you must choose the challenge that you want to submit, alongside a prediction of how long it will take for you to deliver the challenge. There is no time limit for submission.
 
 After your submission our team will decide if you:
 
 - Had a good prediction on the time required to perform the challenge
-- Had solved the main problem proposed by the challenge
-- Had met our evaluation criteria
+- Solved the main problem proposed by the challenge
+- Met our evaluation criteria for that specific challenge
 
 ### Third Phase - Feedback
 
