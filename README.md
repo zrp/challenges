@@ -1,31 +1,42 @@
 # Challenges (under construction)
 
-In order to become an employee here at ZRP you need to prove to our team, a group of extremely competent people, that you will be able to analyze, predict and perform any given task.
+Com o objetivo de se tornar um funcionário ZRP você precisa provar para o nosso timme, um grupo de profissionais extremamente competentes e habilidosos, que você será capaz de analisar, prever e performar uma tarefa que te foi designadas. 
 
-For any given job description, you have three different challenges, an *easy*, a *normal* and a *hard* challenge. You can submit whatever test you think fits your profile.
+Para cada um dos possíveis cargos que você for se candidatar haverá desafios dos mais diversos níveis, podendo ser *fáceis*, *normais* ou *difíceis*. Você pode submeter o teste que achar que mais se encaixa com o seu perfil.
 
-## How to submit
+## Como enviar o projeto
 
-Each area and each level has it's own rule for submission. Read the following instructions and the challenge instructions.
+Cada área e cada projeto tem a sua própria regra quando a submissão do desafio. Leia atentamente as regras e instruções para enviar seu projeto.
 
-> Have any doubts? Send an e-mail to [jobs@zrp.com.br](jobs@zrp.com.br).
+> Dúvidas? Envie um email para [jobs@zrp.com.br](jobs@zrp.com.br).
 
-## How the process work
+## Como o processo seletivo da ZRP funciona
 
-### First Phase - The selection
+### 1 Fase - Seleção
 
-In the first phase you will be evaluated by one of our partners. The main goal of this evaluation is to see if there is a fit with the company culture. We care for helpful, proactive, communicative, interested in learning and knowledgeable people.
+Na primeira fase você será avaliado por um dos sócios da ZRP. O objetivo dessa avaliação é ver se você é um fit com a cultura da empresa. Nós prezamos por pessoas prestativas, pro ativas, comunicativas e interessadas em aprender. Suas soft skills serão os diferenciais aqui. 
 
-### Second Phase - The challenge
+### Segunda Fase - Desafio
 
-If you pass the first phase you must choose the challenge that you want to submit, alongside a prediction of how long it will take for you to deliver the challenge. There is no time limit for submission.
+Se você passar na primeira fase, você deverá escolher um desafio que você deseja enviar e nos dar uma previsão de quanto tempo você demorará para enviar aquele desafio.
+Não há tempo limite para a submissão, porém será avaliado a sua capacidade de prever seu tempo de entrega.
 
-After your submission our team will decide if you:
+Depois desse envio nosso time irá avaliar se:
 
-- Had a good prediction on the time required to perform the challenge
-- Solved the main problem proposed by the challenge
-- Met our evaluation criteria for that specific challenge
+- Você teve uma boa previsão do tempo que você levaria para resolver o problema
+- Resolveu com precisão o problema apresentado
+- Cumpriu com os requisitos e critérios de avaliação daquele desafio
 
-### Third Phase - Feedback
+### Terceiro Passo - Feedback
 
-For those who have submitted the second phase there will be a review conduct by our team and a brief feedback saying if you are hired or not and why you are hired or not.
+Para aqueles que submeteram o desafio da segunda fase haverá uma revisão do desafio pelo nosso time e te chamaremos para um breve call de feedback dizendo se você foi contratado ou não e porque da decisão.
+
+### Escolha o seu caminho
+
+Para qual vaga você está se candidatando?
+
+- [Desenvolvedor](./dev)
+- [Designer](./design)
+- [PO](./po)
+- [QA](./qa)
+- [Comercial](./comercial)
