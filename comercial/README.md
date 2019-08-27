@@ -6,13 +6,13 @@ Neste momento iremos avaliar seu conhecimento acerca do processo comercial, sua 
 
 Sinta-se livre para pesquisar e adicionar conhecimentos externos como base em sua argumentação. Além disso, escreva tudo que deseja. É muito importante para nós termos uma visão do quanto você está preparado(a) para essa vaga!
 
-Aproveitamos também para ressaltar que neste momento só restaram os melhores profissionais, portanto, se você está aqui, você é um deles! Então PARABÉNS - mas caso você tenha chegado aqui "por acaso", sinta-se convidado a desenvolver nosso teste e enviar uma mensagem para nós no e-mail jobs@zrp.com.br.
+Aproveitamos também para ressaltar que neste momento só restaram os(as) melhores profissionais, portanto, se você está aqui, você é um(a) deles(as)! Então PARABÉNS - mas caso você tenha chegado aqui "por acaso", sinta-se convidado(a) a desenvolver nosso teste e enviar uma mensagem para nós no e-mail jobs@zrp.com.br.
 
 Vamos lá? 
 
 #### Introdução
 
-O teste consiste em desenvolver a melhor estratégia para atrair o lead mais interessante para a ZRP. Para isso, iremos disponibilizar 5 exemplos de empresas que podem ser consideradas tanto “bad fit” quanto “best fit”. 
+O teste consiste em desenvolver a melhor estratégia para atrair o lead mais interessante para a ZRP. Para isso, iremos disponibilizar 5 exemplos de empresas que podem ser consideradas tanto "worst fit” quanto “best fit”. 
 
 Para enviar a sua resposta formalize tudo em um arquivo de word (ou docs) e envie para o email jobs@zrp.com.br - você não precisa responder todas as etapas, responda o que quiser e nos envie com o que você tiver de informação.
 
@@ -39,13 +39,12 @@ Agora que você já sabe um pouco mais sobre a ZRP, ranqueie em uma escala de 1 
 
 Como segunda fase, pediremos para você para realizar outras atividades presentes no dia a dia de um Hunter. Faça isso apenas com a empresa que você colocou em primeiro lugar no último exercício. 
 
-1. Monte um discurso comercial
-Como você venderia o serviço da ZRP para a empresa que escolheu? O que você levaria em consideração antes de entrar em contato com esse lead? Compartilhe tudo o que você levaria em consideração na hora de definir o porque que a empresa tem tudo a ver com a ZRP. 
+1. Monte um discurso comercial - É muito importante pesquisar sobre nossos possíveis parceiros antes de entrar em contato com os mesmos. Portanto, nos informe quais informações você considera interessante absorver sobre esse lead antes de fazer a primeira comunicação. Além disso, como você venderia o serviço da ZRP para a empresa que escolheu? 
 
 2. Fomas de Abordar - E-mail? Telefone? Linkedin? Amigos em comum? Nos conte a forma que você acharia interessante de fazer uma abordagem com esse lead - não esqueça de mencionar os meios para isso. 
 Ex: Se escolher telefone, como você conseguiria o número? Fique a vontade para explicar todo seu planejamento. 
 
-3. Situações de Resposta - No dia a dia de vendedores é muito comum receber diferentes tipos de resposta, de negativas a positivas.
+3. Situações de Resposta - No dia a dia de vendedores é muito comum receber diferentes tipos de respostas.
 
 Para um caso negativo (como no exemplo abaixo), como você responderia essa pessoa?
 
@@ -70,7 +69,7 @@ Abs,
 Renato
 ```
 
-Já em outro caso positivo (como no exemplo abaixo), como você responderia essa pessoa? 
+Agora apresentando um caso positivo (como no exemplo abaixo), como você responderia essa pessoa? 
 
 ```
 Olá Fábio boa tarde!
@@ -82,7 +81,7 @@ Abs.
 ```
 
 
-4. Qualificação - Por fim, temos o objetivo de marcar uma reunião para apresentar a ZRP, mostrar como podemos ajudar e também investigar se esse lead tem tudo que precisamos para evoluir com uma parceira. Para isso, quais critérios você levaria em consideração e quais perguntas você faria para esse lead?  
+4. Qualificação - Por fim, temos o objetivo de marcar uma reunião para apresentar a ZRP, mostrar como podemos ajudar e também investigar se esse lead tem tudo que precisamos para evoluir com uma parceira. Para isso, quais critérios você levaria em consideração e quais perguntas você faria para qualificar o mesmo (e posteriormente apresentar uma proposta)? 
 
 #### O que iremos avaliar:
 - Proatividade
