@@ -80,7 +80,6 @@ Vamos agendar um bate papo rápido para início da semana que vem.
 Abs.
 ```
 
-
 4. Qualificação - Por fim, temos o objetivo de marcar uma reunião para apresentar a ZRP, mostrar como podemos ajudar e também investigar se esse lead tem tudo que precisamos para evoluir com uma parceira. Para isso, quais critérios você levaria em consideração e quais perguntas você faria para qualificar o mesmo (e posteriormente apresentar uma proposta)? 
 
 #### O que iremos avaliar:
