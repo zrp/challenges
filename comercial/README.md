@@ -39,12 +39,12 @@ Agora que você já sabe um pouco mais sobre a ZRP, ranqueie em uma escala de 1 
 
 Como segunda fase, pediremos para você para realizar outras atividades presentes no dia a dia de um Hunter. Faça isso apenas com a empresa que você colocou em primeiro lugar no último exercício. 
 
-1. Monte um discurso comercial - É muito importante pesquisar sobre nossos possíveis parceiros antes de entrar em contato com os mesmos. Portanto, nos informe quais informações você considera interessante absorver sobre esse lead antes de fazer a primeira comunicação. Além disso, como você venderia o serviço da ZRP para a empresa que escolheu? 
+1.Monte um discurso comercial - É muito importante pesquisar sobre nossos possíveis parceiros antes de entrar em contato com os mesmos. Portanto, nos informe quais informações você considera interessante absorver sobre esse lead antes de fazer a primeira comunicação. Além disso, como você venderia o serviço da ZRP para a empresa que escolheu? 
 
-2. Fomas de Abordar - E-mail? Telefone? Linkedin? Amigos em comum? Nos conte a forma que você acharia interessante de fazer uma abordagem com esse lead - não esqueça de mencionar os meios para isso. 
+2.Fomas de Abordar - E-mail? Telefone? Linkedin? Amigos em comum? Nos conte a forma que você acharia interessante de fazer uma abordagem com esse lead - não esqueça de mencionar os meios para isso. 
 Ex: Se escolher telefone, como você conseguiria o número? Fique a vontade para explicar todo seu planejamento. 
 
-3. Situações de Resposta - No dia a dia de vendedores é muito comum receber diferentes tipos de respostas.
+3.Situações de Resposta - No dia a dia de vendedores é muito comum receber diferentes tipos de respostas.
 
 Para um caso negativo (como no exemplo abaixo), como você responderia essa pessoa?
 
@@ -80,7 +80,7 @@ Vamos agendar um bate papo rápido para início da semana que vem.
 Abs.
 ```
 
-4. Qualificação - Por fim, temos o objetivo de marcar uma reunião para apresentar a ZRP, mostrar como podemos ajudar e também investigar se esse lead tem tudo que precisamos para evoluir com uma parceira. Para isso, quais critérios você levaria em consideração e quais perguntas você faria para qualificar o mesmo (e posteriormente apresentar uma proposta)? 
+4.Qualificação - Por fim, temos o objetivo de marcar uma reunião para apresentar a ZRP, mostrar como podemos ajudar e também investigar se esse lead tem tudo que precisamos para evoluir com uma parceira. Para isso, quais critérios você levaria em consideração e quais perguntas você faria para qualificar o mesmo (e posteriormente apresentar uma proposta)? 
 
 #### O que iremos avaliar:
 - Proatividade
