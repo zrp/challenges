@@ -45,11 +45,17 @@ Suponha que, para a entrega de um Produto Mínimo Viável que respeite a Visão 
 Pedimos que, seguindo o modelo do Scrum mas, mais importante que isso, respeitando os princípios e valores do Manifesto Ágil, você nos informe (**sucintamente**):
 
 1.As atividades de preparação necessárias antes do início do primeiro Sprint;
+
 2.A duração ideal de um Sprint, do seu ponto de vista;
+
 3.Os ritos que devem acontecer durante o Sprint e qual a duração e momento de cada um;
+
 4.As User Stories necessárias para compor um primeiro Product Backlog e a descrição **resumida** de cada uma;
+
 5.A ordem de prioridade das funcionalidades mencionadas no passo anterior;
+
 6.A forma como o time deve proceder para estimar o esforço envolvido em cada funcionalidade;
+
 7.As etapas pelas quais cada tarefa ou US deve passar antes de ser considerada como entregue (Done).
 
 ### 3ª e última fase do teste:
