@@ -61,7 +61,10 @@ Você devera consumir um socket que retornas as informações das ameaças, cada
 
 A url do serviço de socket é a: 
 
-`https://zrp-challenge-socket.herokuapp.com`
+`https://zrp-challenge-socket.herokuapp.com:80`
+
+E o evento a ser escutado é o `occurrence` 
+
 
 ### Tecnologias 
 
