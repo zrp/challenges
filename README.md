@@ -40,3 +40,4 @@ Para qual vaga você está se candidatando?
 - [PO](./po)
 - [QA](./qa)
 - [Comercial](./comercial)
+- [RH](./rh)
