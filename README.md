@@ -1,4 +1,4 @@
-# Challenges (under construction)
+# Challenges
 
 Com o objetivo de se tornar um funcionário ZRP você precisa provar para o nosso timme, um grupo de profissionais extremamente competentes e habilidosos, que você será capaz de analisar, prever e desenvolver as tarefas que te forem designadas.
 
