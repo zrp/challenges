@@ -36,6 +36,7 @@ Para aqueles que submeteram o desafio da segunda fase haverá uma revisão do de
 Para qual vaga você está se candidatando?
 
 - [Desenvolvedor](./dev)
+- [Devops](./devops)
 - [Designer](./design)
 - [PO](./po)
 - [QA](./qa)
