@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+<div style="text-align: center;">
+  <h2>Início</h2>
+  {% if user.is_authenticated %}
+  <p>Bem vindo ao SGD-Heros {{ user.username }}</p>
+  {% else %}
+  <p>Muito obrigado pela visita ao SGD-Heros</p>
+  {% endif %}
+  <!-- <p>
+    <strong>Número de usuários registrados: </strong>
+    <button type="button" class="btn btn-success">  {{ count }} <span class="badge badge-danger"></span>
+    </button>
+  </p> -->
+</div>
+{% endblock conteudo %}
