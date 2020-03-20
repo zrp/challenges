@@ -30,7 +30,8 @@ Meu código não é um dos mais bonitos pois estou aprendendo muito ainda sobre 
 
 
 
-## Instalando o Python e Pipenv
+# Instruções para Rodar o projeto
+
 Antes de tudo verifique se sua máquina já tem instalado o Python e o Pipenv
 
 ```console
@@ -56,43 +57,33 @@ Feito isso vamos para o próximo passo que é a instalação do projeto SGD-Hero
 
 ## Instalação do SGD-Heros
 
-Clone o diretório:
+- Clone o projeto para algum local do seu PC
+
+- Entre na pasta que está o projeto e execute os comandos abaixo:
+
+- Crie uma máquina virtual;
 ```console
-git clone https://github.com/Doginnn/2.Solo/tree/master/2.Projects/1.Python_Projects/soloSGE
+pipenv --three
 ```
-Acesse até o diretório SGD-Heros e prossiga com os seguintes comandos:
+- Rode esse comando para checar se está tudo certo com a sua máquina virtual;
 ```console
 pipenv check
 ```
+- Rode esse comando para ativar sua máquina virtual;
 ```console
 pipenv shell
 ```
+- Com esse comando sua máquina virtual reconhecerá automaticamente os pacotes que estão em "requirements.txt" e vai instalar;
 ```console
 pipenv sync
 ```
+- Rode esse comando para criar o arquivo Pipenv.lock;
+```console
+pipenv lock
+```
+- Rode esse comando para atualizar os pacotes da sua aplicação.
 ```console
 pipenv update
 ```
 
-
-### Instruções
-
-Você deverá criar um fork deste projeto, e desenvolver em cima do seu fork. Use o README principal do seu repositório para nos contar como foi resolver seu teste, as decisões tomadas, como você organizou e separou seu código, e principalmente as instruções de como rodar seu projeto.
-
-
-### Tecnologias 
-
-**Frontend**
-
-- Vue
-- Angular
-- React
-
-**Backend**
-
-- Node.Js
-- Ruby
-- Python
-- Elixir
-- C#
-- Go
+OBS: Caso tenha dúvida de como criar um ambiente virtual com o Pipenv veja esse [Tutorial](https://medium.com/code-rocket-blog/gerenciando-suas-depend%C3%AAncias-e-ambientes-python-com-pipenv-9e5413513fa6). Ele é o mais completo que ví até hoje.
