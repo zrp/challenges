@@ -1,18 +1,15 @@
-# Sistema de Gerenciamento Empresarial da Solo Moveterras - soloSGE
+# Sistema de Gerenciamento de Distribuição - Heros
 
-## Instalando o Python, Pip e MySQL
-
-Antes de tudo verifique se sua máquina já tem instalado o Python, Pip e MySQL
+## Instalando o Python e Pipenv
+Antes de tudo verifique se sua máquina já tem instalado o Python e o Pipenv
 
 ```console
 python --version
-pip --version
-mysql --version
+pipenv --version
 ```
-Caso não tenha os três instalados faça a instalação através dos repositórios oficiais:
+Caso não tenha os dois instalados faça a instalação através dos repositórios oficiais:
 - [Python](https://python.org.br/instalacao-linux/)
-- [Pip](https://pypi.org/project/pip/)
-- [MySQL](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/)
+- [Pipenv](https://pipenv.kennethreitz.org/en/latest/#install-pipenv-today)
 
 Feito essa verificação vamos para a instalação do [Pipenv](https://pypi.org/project/pipenv/)
 
@@ -25,15 +22,15 @@ pip install pipenv
 pipenv --version
 ```
 
-Feito isso vamos para o próximo passo que é a instalação do projeto soloSGE
+Feito isso vamos para o próximo passo que é a instalação do projeto SGD-Heros
 
-## Instalação do soloSGE
+## Instalação do SGD-Heros
 
 Clone o diretório:
 ```console
 git clone https://github.com/Doginnn/2.Solo/tree/master/2.Projects/1.Python_Projects/soloSGE
 ```
-Acesse até o diretório soloSGE e prossiga com os seguintes comandos:
+Acesse até o diretório SGD-Heros e prossiga com os seguintes comandos:
 ```console
 pipenv check
 ```
@@ -42,4 +39,7 @@ pipenv shell
 ```
 ```console
 pipenv sync
+```
+```console
+pipenv update
 ```
