@@ -55,14 +55,3 @@ class Hero(models.Model):
 
     username = models.CharField(max_length=100, blank=True, name='Nome do Herói')
     classe = models.CharField(max_length=1, choices=CLASSES_HEROIS, blank=True, name='Ranking')
-
-
-class Vilao(models.Model):
-    
-    CLASSES_VILOES = [
-        ('G','GOLD'),
-        ('S','SILVER'),
-        ('C','COPPER'),
-        ('W','WOOD'),
-    ]
-    pass
