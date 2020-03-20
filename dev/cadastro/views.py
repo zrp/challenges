@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.models import User
-from django.contrib.auth.forms import UserCreationForm, AuthenticationForm, PasswordChangeForm
+from django.contrib.auth.forms import UserCreationForm, AuthenticationForm, PasswordChangeForm, UserChangeForm
 from django.contrib.auth import authenticate, login, logout, update_session_auth_hash
 from django.contrib import messages
 
@@ -46,8 +46,7 @@ def atualizar_senha(request):
             user = form_senha.save()            
             update_session_auth_hash(request, user)
             return redirect('home')
-            messages.success(request, 'Senha atualizada com sucesso!')
-            
+            messages.success(request, 'Senha atualizada com sucesso!')            
         else:
             messages.error(request, 'Desculpe, isso não funcionou!')
             messages.error(request, 'Por gentileza tente novamente.')
@@ -60,3 +59,27 @@ def atualizar_senha(request):
 def deslogar_hero(request):
     logout(request)
     return redirect('home')
+
+
+    # Views referente ao Herói
+def cria_hero(request):
+    if request.method == 'POST':
+        form_cria_hero = UserCreationForm(request.POST)
+        if form_cria_hero.is_valid():
+            user = form_cria_hero.save()
+            return redirect('logar_hero')
+    else:
+        form_cria_hero = UserCreationForm()
+    return render(request, 'cria_hero.html', {"form_cria_hero":form_cria_hero})
+
+
+def edita_hero(request):
+    pass
+
+
+def remove_hero(request):
+    pass
+
+
+def lista_hero(request):
+    pass

@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+<div class="text-center">
+    <h2>Criar novo Herói</h2>
+    <form method="POST">
+        {% csrf_token %}
+        <div class="form-group">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome do Herói">
+        </div>
+        <div class="form-group mb-3">
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>---Escolha a Classe---</option>
+                <option>"S" SABICHÃO</option>
+                <option>"A" ARRETADO</option>
+                <option>"B" BONZIN</option>
+                <option>"C" COITADIN</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <input class="btn btn-success mb-3 btn-dark" type="submit" value="Criar">
+        </div>
+        <hr>
+        <div class="btn-group">
+            <a type="button" class="btn btn-dark btn-sm" href="{% url 'home' %}">Voltar</a>
+        </div>
+
+    </form>
+</div>
+{% endblock conteudo %}

@@ -16,7 +16,8 @@ def user_directory_path(instance, filename):
 
 class Usuario(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    user_foto = models.ImageField(upload_to=user_directory_path, default='imagens/user.png', blank=True)
+    user_foto = models.ImageField(
+        upload_to=user_directory_path, default='imagens/user.png', blank=True)
 
     def save(self, *args, **kwargs):
         # Deletar user_foto se já existir uma
@@ -41,3 +42,27 @@ def foto_post_delete_handler(sender, instance, **kwargs):
     # Não deletar a imagem default 'user.png'
     if instance.user_foto != 'imagens/user.png':
         instance.user_foto.delete(False)
+
+
+class Hero(models.Model):
+
+    CLASSES_HEROIS = [
+        ('S','"S" SABICHÃO'),
+        ('A','"A" ARRETADO'),
+        ('B','"B" BONZIN'),
+        ('C','"C" COITADIN'),
+    ]
+
+    username = models.CharField(max_length=100, blank=True, name='Nome do Herói')
+    classe = models.CharField(max_length=1, choices=CLASSES_HEROIS, blank=True, name='Ranking')
+
+
+class Vilao(models.Model):
+    
+    CLASSES_VILOES = [
+        ('G','GOLD'),
+        ('S','SILVER'),
+        ('C','COPPER'),
+        ('W','WOOD'),
+    ]
+    pass

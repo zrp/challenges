@@ -5,7 +5,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
 from django.utils.translation import ugettext_lazy as _
 
-from .models import Usuario
+from .models import Usuario, Hero
 
 class UserLoginForm(forms.ModelForm):
 
@@ -34,3 +34,10 @@ class UserLoginForm(forms.ModelForm):
             if not user or not user.is_active:
                 raise form.ValidationError(u"Usuário ou senha inválidos")
             return user
+
+
+class UserHeroForm(forms.ModelForm):
+    
+    class Meta:
+        model = Hero
+        fields = ('username', 'classe',)
