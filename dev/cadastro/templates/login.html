@@ -5,17 +5,12 @@
     <h2>Bem vindo a tela de Login!</h2>
     <form method="POST">
         {% csrf_token %}
-
         {{ form_login.as_p }}
-
         {% for message in messages %}
-
         <div class="alert alert-danger">
             {{ message }}
         </div>
-
         {% endfor %}
-
         <div class="form-group">
             <input class="btn btn-success mb-3 btn-dark" type="submit" value="Login">
         </div>
