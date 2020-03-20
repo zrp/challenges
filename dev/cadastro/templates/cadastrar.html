@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+<div class="text-center">
+  <h2>Cadastrar novo Herói</h2>
+  <form method="POST">
+    {% csrf_token %}
+    {{ form_cadastro.as_p }}
+
+    <div class="form-group">
+      <input class="btn btn-success mb-3 btn-dark" type="submit" value="Entrar">
+    </div>
+    <div class="btn-group">
+      <a type="button" class="btn btn-dark btn-sm" href="{% url 'home' %}">Voltar</a>
+    </div>
+
+  </form>
+</div>
+{% endblock conteudo %}
