@@ -47,11 +47,13 @@ def foto_post_delete_handler(sender, instance, **kwargs):
 class Hero(models.Model):
 
     CLASSES_HEROIS = [
-        ('S','"S" SABICHÃO'),
-        ('A','"A" ARRETADO'),
-        ('B','"B" BONZIN'),
-        ('C','"C" COITADIN'),
+        ('S', '"S" SABICHÃO'),
+        ('A', '"A" ARRETADO'),
+        ('B', '"B" BONZIN'),
+        ('C', '"C" COITADIN'),
     ]
 
-    username = models.CharField(max_length=100, blank=True, name='Nome do Herói')
-    classe = models.CharField(max_length=1, choices=CLASSES_HEROIS, blank=True, name='Ranking')
+    username = models.CharField(
+        max_length=100, blank=True, name='Nome do Herói')
+    classe = models.CharField(
+        max_length=1, choices=CLASSES_HEROIS, blank=True, name='Ranking')
