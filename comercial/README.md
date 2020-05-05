@@ -50,6 +50,8 @@ Deixe o mais claro possível quais meios você usaria para entrar em contato com
 
 #### 3º fase do desafio:
 
+**Você fará a terceira fase do desafio apenas se passar pela primeira e segunda fase!**
+
 Vamos para a última fase do trabalho do SDR, a QUALIFICAÇÃO! Após um lead identificado e com um bom fit com a ZRP, chega a hora de fazer sua primeira reunião com o cliente em potencial.
 
 Para sua primeira reunião qualificamos um lead fictício para você, assim como te explicamos o produto que você estará vendendo.
@@ -77,7 +79,7 @@ Nosso time de desenvolvimento é composto de desenvolvedores, gerentes de produt
 
 #### Entrega
 
-Os dois primeiros desafios podem ser enviados para nós pelo jobs@zrp.com.br, enquanto o terceiro desafio deve ser apresentado numa espécie de role play feito com os heads comerciais.
+Os dois primeiros desafios podem ser enviados para nós pelo jobs@zrp.com.br, enquanto o terceiro desafio, caso vc passe no primeiro e no segundo, será apresentado numa espécie de role play feito com os heads comerciais.
 
 Te damos completa liberdade criativa sobre o modelo de entrega dos desafios e sobre as estratégias, técnicas e métodos utilizados
 por você, mas sinta-se confortável sobre suas escolhas, pois todos podem ser questionados ;)
