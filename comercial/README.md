@@ -1,88 +1,89 @@
 ### SDR (Sales Development Representative) - Teste para Comercial
 
-Bem vindo(a) ao processo seletivo da vaga de SDR na ZRP!
-
+Bem vindo(a) ao processo seletivo da vaga de Sales Development Representative na ZRP!
 Neste momento iremos avaliar seu conhecimento acerca do processo comercial, sua proatividade e também sua capacidade de solucionar problemas presentes no dia a dia de um(a) profissional de vendas. Para isso, você terá a liberdade que precisa para bolar as melhores estratégias e nos explicar como que tudo isso foi desenvolvido.
-
 Sinta-se livre para pesquisar e adicionar conhecimentos externos como base em sua argumentação. Além disso, escreva tudo que deseja. É muito importante para nós termos uma visão do quanto você está preparado(a) para essa vaga!
 
 Aproveitamos também para ressaltar que neste momento só restaram os(as) melhores profissionais, portanto, se você está aqui, você é um(a) deles(as)! Então PARABÉNS - mas caso você tenha chegado aqui “por acaso”, sinta-se convidado(a) a desenvolver nosso teste e enviar uma mensagem para nós no e-mail jobs@zrp.com.br.
 
 Vamos lá?
 
-
 #### Introdução
 
-O teste consiste em desenvolver a melhor estratégia para atrair o lead mais interessante para a ZRP. Para isso, iremos disponibilizar 5 exemplos de empresas que podem ser consideradas tanto “worst fit” quanto “best fit”.
+Este teste procura avaliar suas habilidades no topo e meio de funil propondo desafios comuns na rotina de um SDR, como Inteligência Comercial, Prospecção e Qualificação. Antes de começar seus desafios existem algumas coisas que você precisa saber sobre a ZRP e nosso modelo de vendas.
 
-Para enviar a sua resposta formalize tudo em um arquivo docs do Google e envie para o email jobs@zrp.com.br - você não precisa responder todas as etapas, responda o que quiser e nos envie com o que você tiver de informação.
+Hoje, maior parte da nossa venda é através de OUTBOUND. Isso porque nosso produto se trata de uma consultoria tecnológica e de produtos digitais, com foco em desenvolvimento de software, portanto é uma venda mais delicada. Por isso usamos todos os esforços para definir e achar o cliente ideal para a empresa!
 
-#### Aplicação dos Testes:
+Nossa venda também é sempre CONSULTIVA. Somos orgulhosos de sermos resolvedores de dores e arquitetos de soluções para nossos clientes e por isso, mais importante do que vender, é entender quais são as necessidades da pessoa para saber se podemos desenvolver um relacionamento win-win.
 
-Agora que você já sabe um pouco mais sobre a ZRP, ranqueie em uma escala de 1 a 5 qual a empresa mais interessante para fazermos negócios - sendo 1 uma empresa sem fit nenhum com conosco e 5 com muito fit. Após ranquear as empresas, nos diga o porquê de sua decisão.
+E falando sobre nosso cliente ideal, nosso alvo pode ter duas faces:
 
-- Empresa: **FixMe**
-- Dor: Startup que está começando, ainda não tem nenhum produto em mãos e não testaram nada no mercado. Precisam da ajuda da ZRP para buscar investimento.
+**Alvo I**
+- Empresa localizada no Sudeste de SP.
+- Entre 10 e 50 funcionários com alto crescimento ou estável com mais de 50 funcionários.
+- Empresa sem base tecnológica.
+- Ciclo de compra entre 2 e 6 meses, com alto envolvimento de múltiplos decisores.
+- Projetos de longo prazo com escopo aberto.
+- Foco em qualidade e estratégia digital a longo prazo.
 
-- Empresa: **Petit Ami Pet Shop**
-- Dor: Empresa de venda de rações online que precisa de um site institucional para divulgar a marca
+**Alvo II**
+- Empresa localizada no Brasil.
+- Todos os segmentos de tamanho.
+- Ciclo de compra menor do que 2 meses.
+- Projetos de médio prazo com visão de produto clara desde o início.
+- Foco em qualidade e velocidade de entrega.
+- Orçamento limitado.
 
-- Empresa: **Colgate**
-- Dor: As áreas se comunicam pouco e não são muito produtivas. Precisam aumentar o controle dos gestores sobre quais tarefas cada um está fazendo e quão longe dos deadlines cada equipe está
+#### 1º fase do desafio:
 
-- Empresa: **Doletinha**
-- Dor: Startup já financiada construída como subproduto de um banco de investimentos, possui um MVP e modelo de negócio validado e precisa de uma ajuda para aumentar o market share e conquistar o mercado
+Considerando as informações dadas a você sobre o ICP da ZRP, seus conhecimentos e experiências profissionais e pessoais, formule uma lista com pelo menos 4 empresas baseada nos ICP’s fornecidos.
 
-- Empresa: **Viva Fruta**
-- Dor: Com o objetivo de apurar a qualidade das frutas transportadas em portos, a Viva Fruta tem por necessidade desenvolver um formulário dinâmico, controlado por um administrador, para que os auditores nos portos consigam registrar a qualidade da mercadoria
+Não se preocupe, não queremos que você faça nenhum trabalho de contato com nenhuma empresa. O que pretendemos avaliar por aqui são suas habilidades de cruzar informações e requisitos na hora de identificar os leads.
 
-#### 2ª Fase do Teste: 
+Você pode pesquisar da forma que preferir, usando as ferramentas e métodos que você ache mais eficiente, porém suas escolhas precisam ser justificadas para nós. Não se esqueça de nos informar também qualquer referências e/ou pesquisas usadas para seu embasamento teórico ;)
 
-Como segunda fase, pediremos para você para realizar outras atividades presentes no dia a dia de um SDR. Faça isso apenas com a empresa que você colocou em primeiro lugar no último exercício.
+#### 2º fase do desafio:
 
-**1.Monte um discurso comercial** - É muito importante pesquisar sobre nossos possíveis parceiros antes de entrar em contato com os mesmos. Portanto, nos informe quais informações você considera interessante absorver sobre esse lead antes de fazer a primeira comunicação. Além disso, como você venderia o serviço da ZRP para a empresa que escolheu?
+Nessa segunda fase, queremos entender melhor suas habilidades de prospecção. Para isso, considerando a lista de empresas identificadas por você no desafio anterior, queremos que você desenvolva um fluxo de cadência - com tipo e perfil - que funcione da melhor forma para os leads.
 
-**2.Fomas de Abordar** - E-mail? Telefone? Linkedin? Amigos em comum? Nos conte a forma que você acharia interessante de fazer uma abordagem com esse lead - não esqueça de mencionar os meios para isso. Ex: Se escolher telefone, como você conseguiria o número? Fique a vontade para explicar todo seu planejamento. 
+Deixe o mais claro possível quais meios você usaria para entrar em contato com as empresas escolhidas, como por telefone, e-mail ou redes sociais, com qual frequência e o porquê.
 
-**3.Situações de Resposta** - No dia a dia de vendedores é muito comum receber diferentes tipos de respostas.
+#### 3º fase do desafio:
 
-Para um caso negativo (como no exemplo abaixo), como você responderia essa pessoa?
+Vamos para a última fase do trabalho do SDR, a QUALIFICAÇÃO! Após um lead identificado e com um bom fit com a ZRP, chega a hora de fazer sua primeira reunião com o cliente em potencial.
 
-```
-Olá, não temos interesse nesse momento.
+Para sua primeira reunião qualificamos um lead fictício para você, assim como te explicamos o produto que você estará vendendo.
 
-Obrigado pela oportunidade.
+Essa fase, diferentemente das outras será um dinâmica feita em conjunto com um membro do time comercial da ZRP. Queremos avaliar suas habilidades de conversação, adaptação ao perfil do lead e da empresa, habilidade de persuasão, técnica e estratégia.
 
-Abraços
-```
+##### Falando um pouco do lead e do seu produto:
 
-Para um segundo caso negativo (como no exemplo abaixo), como você responderia essa pessoa?
+A Hotel&Tech é uma startup nova no mercado hoteleiro, que recebeu um aporte recentemente, cujo objetivo é conectar pequenos negócios e casas pessoais com turistas, garantindo a segurança na tratativa financeira para pequenos aluguéis.
 
-```
-Bom dia,
+Hoje a empresa já possui um site formulado para a informação e atração de clientes, e em conversa por e-mail, o CEO, Pedro, mostrou interesse no serviço da ZRP para ajudá-lo a construir uma plataforma para locadores e locatários se conectarem mais facilmente. Ele sugeriu a utilização de geolocalização como uma possível solução.
 
-No momento, temos equipes internas que cuidam do processo de ponta a ponta.
+A visão dele é dentro de 2 anos estar estabelecido em todo o Brasil, para poder expandir seu negócio internacionalmente.
 
-Caso o cenário mude em algum momento, procuro vocês.
+O seu cenário parece bom, o possível cliente está interessado no produto e tem prazo e urgência para resolução de sua dor. Porém, nas tratativas iniciais com ele, existe um receio relacionado aos valores mensais cobrados pelo time, o prazo de entrega e o escopo.
 
-Abs,
-Renato
-```
+Ele aceitou o seu convite para uma reunião de qualificação, e o seu objetivo é simples: qualificá-lo e educá-lo a respeito do processo de vendas e comercial da ZRP.
 
-Agora apresentando um caso positivo (como no exemplo abaixo), como você responderia essa pessoa? 
+##### Produto
 
-```
-Olá boa tarde!
+A ZRP é uma consultoria tecnológica especializada em desenvolvimento de software, concepção e implementação de produtos e serviços digitais, crescimento e expansão de negócios, construção de times ágeis, disseminação de tecnologia nas organizações e formadora de líderes técnicos.
 
-Sim, gostaria de entender um pouco melhor de que forma poderiam nos ajudar.
-Vamos agendar um bate papo rápido para início da semana que vem.
+Nosso time de desenvolvimento é composto de desenvolvedores, gerentes de produto, analistas de qualidade e designers, que garantem o pensamento fora da caixa e um produto com um alto padrão de qualidade.
 
-Abs.
-```
 
-**4.Qualificação** - Por fim, temos o objetivo de marcar uma reunião para qualificar o lead, mostrar como podemos ajudar e também investigar se esse lead tem tudo que precisamos para evoluir com uma parceira. Para isso, quais critérios, técnicas, ferramentas e frameworks você levaria em consideração e quais perguntas você faria para qualificar o mesmo?
+#### Entrega
 
-#### O que iremos avaliar:
+Os dois primeiros desafios podem ser enviados para nós pelo jobs@zrp.com.br, enquanto o terceiro desafio deve ser apresentado numa espécie de role play feito com os heads comerciais.
+
+Te damos completa liberdade criativa sobre o modelo de entrega dos desafios e sobre as estratégias, técnicas e métodos utilizados
+por você, mas sinta-se confortável sobre suas escolhas, pois todos podem ser questionados ;)
+
+O que iremos avaliar:
+
 - Proatividade
 - Capacidade de persuasão
 - Capacidade analítica
