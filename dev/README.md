@@ -1,97 +1,93 @@
-### iHeros - Teste Fullstack
-    
-Este é o teste usado por nós aqui da ZRP para avaliar tecnicamente os candidatos a nossas vagas de desenvolvedores Fullstack. Se você estiver participando de um processo seletivo para nossa equipe, certamente em algum momento receberá este link, mas caso você tenha chegado aqui "por acaso", sinta-se convidado a desenvolver nosso teste e enviar uma mensagem para nós no e-mail jobs@zrp.com.br.
+<h1 align="center">
+    <img alt="IHeros" src="frontend/src/assets/mapa.svg" width="150px" />
+</h1>
+<h1 align="center">IHeros</h1>
 
-Aqui na ZRP nós aplicamos este mesmo teste para as vagas em todos os níveis, ou seja, um candidato a uma vaga de dev júnior fará o mesmo teste de um outro candidato a uma vaga de dev sênior, mudando obviamente o nosso critério de avaliação do resultado do teste.
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/abauruel/challenges">
 
-Nós fazemos isso esperando que as pessoas mais iniciantes entendam qual o modelo de profissional que temos por aqui e que buscamos para o nosso time. Portanto, se você estiver se candidatando a uma vaga mais iniciante, não se assuste, e faça o melhor que você puder!
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/abauruel/challenges">
 
-### Instruções
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
 
-Você deverá criar um fork deste projeto, e desenvolver em cima do seu fork. Use o README principal do seu repositório para nos contar como foi resolver seu teste, as decisões tomadas, como você organizou e separou seu código, e principalmente as instruções de como rodar seu projeto.
+<p align="center">
+  <a href="#rocket-technologias">Technologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-can-i-run-it">Como executar?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
 
-Lembre-se que este é um teste técnico e não um concurso público, portanto, não existe apenas uma resposta correta. Mostre que você é bom e nos impressione, mas não esqueça do objetivo do projeto.
+<br>
 
-Nós não definimos um tempo limite para resolução deste teste, o que vale para nós e o resultado final e a evolução da criação do projeto até se atingir este resultado.
-    
+## :rocket: Technologias
 
-#### Descrição
-> Rede de cadastro(test backend) e distribuição(test frontend) de heroes, levando em consideração o nível da ameaça que estaria atacando uma determinada região.
+This project uses these technologies:
 
-Você está no ano de 3150 e está a frente do setor de tecnologia responsável pelo desenvolvimento do sistema de gerenciamento de distribuição de Heros para combater ameaças. O sistema deve monitorar o sistema de alertas de ameças provido pela ONU e alocar os herois para cada nova ameaça existente no globo terrestre. 
+- [React](https://reactjs.org)
+- [NodeJs]()
+- [Express]()
+- [TypeScript]()
+- [Jest]()
+- [TypeOrm]()
+- [Tsrynge]()
+- [Postgres]()
+- [Redis]()
+- [JWT]()
+- [Axios]()
+- [Styled Components]()
+- [Eslint]()
+- [React Icons]()
+- [Socket.IO]()
+- [Leaflet]()
 
-Para isso, será preciso implementar as seguintes funcionalidades:
+## 💻 Projeto
 
- - Autenticação
- - Cadastre, edite, remova e liste herois
- - Aloque automaticamente o heroi mais adequado quando uma nova ameaça surgir.
- - Registre a desalocação de um heroi (entende-se por desalocação, o ato do heroi ja ter derrotado a ameaça, depois dele ter sido alocado).
- - Exiba o histórico de ameaças junto com quem foi o responsável por impedir a catástrofe.
+O Projeto consistem em uma aplição backend e frontend e foi desenvolvido baseado no seguinte cenário:
 
-Além disso, o lider de operações ordenou as seguintes regras para o desenvolvimento da aplicação:
-- Cada **Hero** e **Ameaça** tem um rank
-- Os herois devem ser alocados de acordo com sua localização e rank adequado ao nível de ameaças. 
-- Os ranks são os seguintes:
+> Você está no ano de 3150 e está a frente do setor de tecnologia responsável pelo desenvolvimento do sistema de gerenciamento de distribuição de Heros para combater ameaças. O sistema deve monitorar o sistema de alertas de ameças provido pela ONU e alocar os herois para cada nova ameaça existente no globo terrestre.
 
-**Heroes**
-Classe S, A, B e C.
+Para atender os requisítos da proposta foi utilizado a lib [socket.io](https://socket.io/) para consumir as informações vindas do socket e adicionamos o serviço filas utilizando a lib [Bull](https://github.com/OptimalBits/bull) junto com o [Redis](https://redis.io/), cujo serviço é de ao receber a notificação localizar o herois mais proximo através da localização geografica, utilizando a formula de [Haversine](https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_Haversine#:~:text=A%20f%C3%B3rmula%20de%20Haversine%20%C3%A9,de%20suas%20latitudes%20e%20longitudes.) para o calculo em km . No frontend adicionamos o tela de login com autenticação [JWT](https://jwt.io/) e a [Context Api](https://pt-br.reactjs.org/docs/context.html) para armazenamento do token. em nosso layout foi desenvolvido com o auxilio da lib [styled components](https://pt-br.reactjs.org/docs/context.html) para a estilização e a lib [Leaftlet](https://leafletjs.com/) para o uso do Mapa.
 
-**Ameaças**
-Nível Gold, Silver, Copper e Wood.
+## ✓ Prerequisite
 
-- Herois do rank classe "S" tem prioridade sobre ameaças do tipo "Gold";
-- Herois do rank classe "A" tem prioridade sobre ameaças do tipo "Silver";
-- Herois do rank classe "B" tem prioridade sobre ameaças do tipo "Copper";
-- Herois do rank classe "C" tem prioridade sobre ameaças do tipo "Wood";
+- Postgres
+- Redis
 
-> Bônus: Alocar multiplos herois de ranks menores em uma mesma ameaça de rank maior. (Utilize a proporção que achar melhor).
+## 👨‍💻 Como executar?
 
-Você devera consumir um socket que retornas as informações das ameaças, cada ameça tem o seguinte formato de objeto:
+`git clone https://github.com/abauruel/challenges.git`
 
-``` 
-{
-    location: {
-        lat: -5.836597,
-        lng: -35.236007,
-    },
-    dangerLevel: 'S',
-    monsterName: 'Black Dragon',
-}
-```
+### Backend
 
-A url do serviço de socket é a: 
+renomeio .env.example para .env para configurar as variaveis de ambiente<br>
+`cd backend && yarn && yarn typeorm migration:run && yarn dev:server`
 
-`https://zrp-challenge-socket.herokuapp.com:443`
+### FrontEnd
 
-E o evento a ser escutado é o `occurrence` 
+`cd frontend && yarn && yarn start`
 
+usuario: admin@iheros.com
+password: 123456
 
-### Tecnologias 
+## Screenshots
 
-**Frontend**
+<p align="center">
+<img src='_layout/login.png'>
+<img src='_layout/dashboard.png'>
+<img src='_layout/desalocacaoHeroi.png'>
+<img src='_layout/adicionarHeroi.png'>
+<img src='_layout/edcaoheroi.png'>
+<img src='_layout/historicoconcluido.png'>
+<img src='_layout/listaHeroiDisponibilidade.png'>
 
-- Vue
-- Angular
-- React
+</p>
 
-**Backend**
+## :memo: License
 
-- Node.Js
-- Ruby
-- Python
-- Elixir
-- C#
-- Go
+This project uses the MIT license. Read [LICENSE](LICENSE.md) for details.
 
-Para persisitir os dados utilize o meio que achar mais conveniente :).
+---
 
-###  O que iremos avaliar
-
-- Modelagem de Dados
-- Domínio da Linguagem
-- Legibilidade do Código
-- Estrutura do Código
-- Organização do Código
-- Design Patterns
-- Manutenibilidade do Código
-- Testes Unitários e Cobertura de Testes
+Made with ♥ by Alex Claude :wave:
