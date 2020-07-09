@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-technologias">Technologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-technologias">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-can-i-run-it">Como executar?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -21,7 +21,7 @@
 
 <br>
 
-## :rocket: Technologias
+## :rocket: Tecnologias
 
 This project uses these technologies:
 
@@ -50,10 +50,10 @@ O Projeto consistem em uma aplição backend e frontend e foi desenvolvido basea
 
 Para atender os requisítos da proposta foi utilizado a lib [socket.io](https://socket.io/) para consumir as informações vindas do socket e adicionamos o serviço filas utilizando a lib [Bull](https://github.com/OptimalBits/bull) junto com o [Redis](https://redis.io/), cujo serviço é de ao receber a notificação localizar o herois mais proximo através da localização geografica, utilizando a formula de [Haversine](https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_Haversine#:~:text=A%20f%C3%B3rmula%20de%20Haversine%20%C3%A9,de%20suas%20latitudes%20e%20longitudes.) para o calculo em km . No frontend adicionamos o tela de login com autenticação [JWT](https://jwt.io/) e a [Context Api](https://pt-br.reactjs.org/docs/context.html) para armazenamento do token. em nosso layout foi desenvolvido com o auxilio da lib [styled components](https://pt-br.reactjs.org/docs/context.html) para a estilização e a lib [Leaftlet](https://leafletjs.com/) para o uso do Mapa.
 
-## ✓ Prerequisite
+## ✓ Prerequisitos
 
 - Postgres
-- Redis
+- Redis 
 
 ## 👨‍💻 Como executar?
 
@@ -71,7 +71,7 @@ renomeio .env.example para .env para configurar as variaveis de ambiente<br>
 usuario: admin@iheros.com
 password: 123456
 
-## Screenshots
+## Screenshot
 
 <p align="center">
 <img src='_layout/login.png'>
