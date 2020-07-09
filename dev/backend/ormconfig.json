@@ -1,0 +1,16 @@
+[
+  {
+    "name": "default",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "docker",
+    "database": "heroManager",
+    "entities": ["./src/modules/**/infra/database/entities/*.ts"],
+    "migrations": ["./src/share/infra/database/migrations/*.ts"],
+    "cli": {
+      "migrationsDir": "./src/share/infra/database/migrations"
+    }
+  }
+]
