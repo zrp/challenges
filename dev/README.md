@@ -50,10 +50,10 @@ Você devera consumir um socket (construído utilizando o **socket.io** que reto
 
 ``` 
 {
-    location: {
+    location: [{
         lat: -5.836597,
         lng: -35.236007,
-    },
+    }],
     dangerLevel: 'Dragon',
     monsterName: 'Black Dragon',
 }
