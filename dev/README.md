@@ -65,7 +65,7 @@ A url do serviço de socket é a:
 
 E o evento a ser escutado é o `occurrence` 
 
-Caso queira referência veja [esse link](https://socket.io/docs/client-api/)
+Caso queira referência de como se conectar ao websocket veja [esse link](https://socket.io/docs/client-api/).
 
 ### Tecnologias 
 
