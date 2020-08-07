@@ -30,23 +30,23 @@ Para isso, será preciso implementar as seguintes funcionalidades:
 
 Além disso, o lider de operações ordenou as seguintes regras para o desenvolvimento da aplicação:
 - Cada **Hero** e **Ameaça** tem um rank
-- Os herois devem ser alocados de acordo com sua localização e rank adequado ao nível de ameaças. 
+- Os herois devem ser alocados de acordo com sua localização (mais próximo sempre) e rank adequado ao nível de ameaças. 
 - Os ranks são os seguintes:
 
 **Heroes**
 Classe S, A, B e C.
 
 **Ameaças**
-Nível Gold, Silver, Copper e Wood.
+Nível God, Dragon, Tiger e Wolf.
 
-- Herois do rank classe "S" tem prioridade sobre ameaças do tipo "Gold";
-- Herois do rank classe "A" tem prioridade sobre ameaças do tipo "Silver";
-- Herois do rank classe "B" tem prioridade sobre ameaças do tipo "Copper";
-- Herois do rank classe "C" tem prioridade sobre ameaças do tipo "Wood";
+- Herois do rank classe "S" tem prioridade sobre ameaças do tipo "God";
+- Herois do rank classe "A" tem prioridade sobre ameaças do tipo "Dragon";
+- Herois do rank classe "B" tem prioridade sobre ameaças do tipo "Tiger";
+- Herois do rank classe "C" tem prioridade sobre ameaças do tipo "Wolf";
 
 > Bônus: Alocar multiplos herois de ranks menores em uma mesma ameaça de rank maior. (Utilize a proporção que achar melhor).
 
-Você devera consumir um socket que retornas as informações das ameaças, cada ameça tem o seguinte formato de objeto:
+Você devera consumir um socket (construído utilizando o **socket.io** que retorna as informações das ameaças, cada ameça tem o seguinte formato de objeto:
 
 ``` 
 {
@@ -54,17 +54,18 @@ Você devera consumir um socket que retornas as informações das ameaças, cada
         lat: -5.836597,
         lng: -35.236007,
     },
-    dangerLevel: 'S',
+    dangerLevel: 'Dragon',
     monsterName: 'Black Dragon',
 }
 ```
 
 A url do serviço de socket é a: 
 
-`https://zrp-challenge-socket.herokuapp.com:443`
+`https://zrp-challenge-socket.herokuapp.com`
 
 E o evento a ser escutado é o `occurrence` 
 
+Caso queira referência veja [esse link](https://socket.io/docs/client-api/)
 
 ### Tecnologias 
 
@@ -95,3 +96,5 @@ Para persisitir os dados utilize o meio que achar mais conveniente :).
 - Design Patterns
 - Manutenibilidade do Código
 - Testes Unitários e Cobertura de Testes
+- Uso do git
+- Virtualização e documentação do ambiente
