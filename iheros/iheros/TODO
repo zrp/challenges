@@ -1,0 +1,33 @@
+
+Project Structure:
+    ✔ Create dir for Projects @done(20-09-14 19:06)
+      ✔ pages @done(20-09-14 19:06)
+        ✔ Home @done(20-09-14 19:06)
+        ✔ SignIn @done(20-09-14 19:06)
+        ✔ SignUp @done(20-09-14 19:27)
+      ✔ route @done(20-09-14 19:07)
+      ✔ services @done(20-09-14 19:07)
+        ✔ auth @done(20-09-14 19:07)
+        ✔ api @done(20-09-14 19:07)
+      ✔ style @done(20-09-14 19:06)
+        ✔ global.css @done(20-09-14 19:06)
+    ✔ adding libs and components @done(20-09-14 19:06)
+  
+  
+  Building services:
+    ✔ api @done(20-09-14 19:12)
+    ✔ auth @done(20-09-14 19:10)
+  
+  Building route:
+    ✔ route @done(20-09-14 19:28)
+      ✔ PrivateRoute (error 404) @done(20-09-14 19:28)
+      ✔ Routes pages @done(20-09-14 19:28)
+  
+  Building pages:
+    ✔ Home @done(20-09-19 21:36)
+        ✔ Header @done(20-09-15 12:43)
+        ✔ New heroi @done(20-09-19 21:36)
+        ✔ Registros @done(20-09-15 13:25)
+    ✔ SignIn @done(20-09-14 23:30)
+    ✔ SignUp @done(20-09-15 11:01)
+    ✔ Capture in realtime @done(20-09-19 23:34)

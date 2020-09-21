@@ -1,0 +1,19 @@
+
+Banco utilizado:
+  ✔ sqllite3 with knex @done(20-09-15 20:38)
+
+Estrutura:
+  ☐ Estrutura projeto
+    ✔ Register Controller @done(20-09-18 22:20)
+    ✔ Session Controller @done(20-09-18 22:20)
+
+Funcionalidades:
+  ✔ autenticacao @done(20-09-18 19:19)
+  ✔ cadastro Herois (coordinates, Classe do Heroi) @done(20-09-18 22:20)
+  ✔ delete herois @done(20-09-18 22:20)
+  ✔ liste herois @done(20-09-18 22:20)
+
+
+tabelas: 
+  ✔ Username @done(20-09-15 20:37)
+  ✔ new heros(min 46:51) @done(20-09-18 22:19)
