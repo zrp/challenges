@@ -1,44 +1,46 @@
-# Challenges
+# Teste desenvolvedor Full Stack
 
-Com o objetivo de se tornar um funcionário ZRP você precisa provar para o nosso timme, um grupo de profissionais extremamente competentes e habilidosos, que você será capaz de analisar, prever e desenvolver as tarefas que te forem designadas.
+## Instruções
 
-Para cada um dos possíveis cargos que você for se candidatar haverá desafios dos mais diversos níveis, podendo estes serem _fáceis_, _normais_ ou _difíceis_. Você pode submeter o teste que achar que mais se encaixa com o seu perfil.
+para rodar o projeto, basta executar os seguintes comandos
 
-## Como submeter o seu projeto
+```shell
+cd path/to/directory
+docker-compose -f docker-compose.dev.yml up --build 
+```
 
-Cada área e cada projeto tem a sua própria regra quanto a submissão do desafio. Leia atentamente as regras e instruções antes de enviar seu projeto.
+## O que foi feito
 
-> Dúvidas? Envie um email para [jobs@zrp.com.br](jobs@zrp.com.br).
+- Back-end
 
-## Como o processo seletivo da ZRP funciona
+## Decisões tecnicas
 
-### Primeira Fase - Seleção
+### Linguagem - Node.js (Express)
 
-Na primeira fase você será avaliado por um dos sócios da ZRP. O objetivo dessa avaliação é ver se você possui aderência à cultura da empresa. Nós prezamos por pessoas prestativas, pró-ativas, comunicativas e interessadas em aprender. Suas core skills serão os seus diferenciais aqui.
+O uso de Node e express para o desenvolvimento da aplicação se deve a três fatores:
 
-### Segunda Fase - Desafio
+- Linguagem da qual ja tive contato
+- Facilidade de integração com bancos não relacionais (Algo por qual tenho grande apreço)
+- Utilização da thread não bloqueante
+- Possibilidade de fácil utilização do paradigma de eventos.
 
-Se você passar na primeira fase você deverá escolher um desafio que você deseja enviar e nos dar uma previsão de quanto tempo você demorará para enviar aquele desafio.
-Não há tempo limite para a submissão, porém você será avaliado pela sua capacidade de prever seu tempo de entrega.
+### Banco de dados - MongoDB
 
-Depois desse envio nosso time irá avaliar se:
+Pelo tamanho real do projeto, não julgo que seja necessário um banco de dados, algo como SQLLite já resolveria. Mas quis mostrar para os avaliadores minha competencia utilizando tal banco de dados.
 
-- Você teve uma boa previsão do tempo que você levaria para resolver o problema
-- Resolveu com precisão o problema apresentado
-- Cumpriu com os requisitos e critérios de avaliação daquele desafio
+No entando, dado o objetivo final da aplicação, a utilização de tal banco pode ser bastante útil dada sua alta possibilidade de distribuição.
 
-### Terceira Fase - Feedback
+Vale lembrar que, toda a integração do banco esta atrás de uma interface, desta forma, o banco de dados vira apenas um detalhe vide seu desacoplamento com o restante da aplicação.
 
-Para aqueles que submeteram o desafio da segunda fase haverá uma revisão do desafio pelo nosso time e te chamaremos para um breve call de feedback dizendo se você foi contratado ou não e o porque da decisão.
+### Docker
 
-### Escolha o seu caminho
+Subi junto ao repositorio os arquivos Docker e docker-compose para que seja avaliada a minha lógica de criação de Containers.
 
-Para qual vaga você está se candidatando?
+## Processo
 
-- [Desenvolvedor](./dev)
-- [Devops](./devops)
-- [Designer](./design)
-- [PO](./po)
-- [QA](./qa)
-- [Comercial](./comercial)
-- [RH](./rh)
+Devido a demandas pessoais, optei por me comprometer principalmente com a aplicação do servidor. Apesar de achar que os requisitos da aplicação sejam melhor resolvidos utilizando uma linguagem como Go, por não ter conhecimento pratico nesta linguagem optei por desenvolver rapidamente em Node.js.
+Eu, particularmente, apesar de achar o conceito de thread não bloqueante algo  extremamente interessante, não gosto da sintaxe do node.js, e principalmente
+do processo de evolução deste para adotar o paradigma da orientação a objetos. No entanto, para os problemas e prazo o Node atendeu super bem.
+
+Não consegui fazer a conexão entre o servidor e o link websocket conforme o solicitado. Independente do resultado do processo seletivo. Vou utilizar este exercicio para praticar tal abordagem.
+
