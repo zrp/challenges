@@ -1,0 +1,3 @@
+[submodule "./I_hero_server"]
+	path = ./I_hero_server
+	url = https://github.com/arthuralcorreia/I_hero_server
