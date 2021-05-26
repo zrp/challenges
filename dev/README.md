@@ -24,7 +24,7 @@ Você está no ano de 3150 e está a frente do setor de tecnologia responsável 
 
 Lembre-se de avisar o RH quais etapas você entregará e sua expectativa de prazo de entrega!
 
-##### Nível 1 - Autenticação e CRUD
+##### Nível 1 - Autenticação e Cadastro
 
 Monte um sistema onde o usuário administrativo pode se cadastrar e se autenticar, para uma plataforma logada.
 
