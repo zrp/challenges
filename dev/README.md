@@ -26,9 +26,12 @@ Lembre-se de avisar o RH quais etapas você entregará e sua expectativa de praz
 
 ##### Nível 1 - Autenticação e CRUD
 
-Monte um sistema onde o usuário administrativo pode se autenticar e, em uma plataforma logada, consiga cadastrar, editar, remover e listar heróis. Leia as próximas etapas para modelar corretamente os atributos de um herói.
+Monte um sistema onde o usuário administrativo pode se cadastrar e se autenticar, para uma plataforma logada.
 
-##### Nível 2 - Alocação de heróis
+##### Nível 2 - CRUD
+
+Na plataforma logada, o administrador deve consiguir cadastrar, editar, remover e listar heróis. Leia as próximas etapas para modelar corretamente os atributos de um herói.
+##### Nível 3 - Alocação de heróis
 
 Para essa parte do desafio, você deve ouvir as notificações de um sistema de emissão desenvolvido pela ONU que informa ameaças de maneira aleatória pelo globo.
 
@@ -70,11 +73,11 @@ E o evento a ser escutado é o `occurrence`
 
 Caso queira referência de como se conectar ao websocket veja [esse link](https://socket.io/docs/client-api/).
 
-##### Nível 3 - Histórico de ameaças
+##### Nível 4 - Histórico de ameaças
 
 Nos mostre em uma tela bonita e chamativa qual herói combateu qual ameaça e quanto tempo durou a ameaça.
 
-##### Nível 4 - Alocações inteligentes
+##### Nível 5 - Alocações inteligentes
 
 Você pode alocar o dobro de heróis de ranking menor para lidar com uma ameaça de ranking superior caso eles estejam mais próximos que o herói devido da ameaça daquele nível. 
 
