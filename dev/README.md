@@ -30,12 +30,12 @@ Monte um sistema onde o usuário administrativo pode se cadastrar e se autentica
 
 ##### Nível 2 - CRUD
 
-Na plataforma logada, o administrador deve consiguir cadastrar, editar, remover e listar heróis. Leia as próximas etapas para modelar corretamente os atributos de um herói.
+Na plataforma logada, o administrador deve conseguir cadastrar, editar, remover e listar heróis. Leia as próximas etapas para modelar corretamente os atributos de um herói.
 ##### Nível 3 - Alocação de heróis
 
 Para essa parte do desafio, você deve ouvir as notificações de um sistema de emissão desenvolvido pela ONU que informa ameaças de maneira aleatória pelo globo.
 
-O lider de operações do departamento de heróis ordenou as seguintes regras para garantir que as ameaças sejam devidamente resolvidas:
+O líder de operações do departamento de heróis ordenou as seguintes regras para garantir que as ameaças sejam devidamente resolvidas:
 - Cada **Herói** e cada **Ameaça** tem um rank
 - Os heróis devem ser alocados de acordo com sua localização (mais próximo sempre) e rank adequado ao nível de ameaças
 - Após determinado tempo os heróis devem ser desalocados
@@ -47,10 +47,10 @@ Classe S, A, B e C.
 **Ameaças**
 Nível God, Dragon, Tiger e Wolf.
 
-- Herois do rank classe "S" tem prioridade sobre ameaças do tipo "God" - uma batalha com uma ameaça desse nível deve durar no mínimo 5 minutos e no máximo 10 minutos;
-- Herois do rank classe "A" tem prioridade sobre ameaças do tipo "Dragon" - uma batalha com uma ameaça desse nível deve durar no mínimo 2 minutos e no máximo 5 minutos;
-- Herois do rank classe "B" tem prioridade sobre ameaças do tipo "Tiger" - uma batalha com uma ameaça desse nível deve durar no mínimo 10 segundos e no máximo 20 segundos;
-- Herois do rank classe "C" tem prioridade sobre ameaças do tipo "Wolf" - uma batalha com uma ameaça desse nível deve durar no mínimo 1 segundo e no máximo 2 segundos;
+- Heróis do rank classe "S" tem prioridade sobre ameaças do tipo "God" - uma batalha com uma ameaça desse nível deve durar no mínimo 5 minutos e no máximo 10 minutos;
+- Heróis do rank classe "A" tem prioridade sobre ameaças do tipo "Dragon" - uma batalha com uma ameaça desse nível deve durar no mínimo 2 minutos e no máximo 5 minutos;
+- Heróis do rank classe "B" tem prioridade sobre ameaças do tipo "Tiger" - uma batalha com uma ameaça desse nível deve durar no mínimo 10 segundos e no máximo 20 segundos;
+- Heróis do rank classe "C" tem prioridade sobre ameaças do tipo "Wolf" - uma batalha com uma ameaça desse nível deve durar no mínimo 1 segundo e no máximo 2 segundos;
 
 Você devera consumir um socket (construído utilizando o **socket.io** que retorna as informações das ameaças, cada ameça tem o seguinte formato de objeto:
 
@@ -102,9 +102,9 @@ Ou seja, o dobro da força heroica é o suficiente para batalhar com a ameaça d
 - PHP
 - Java
 
-Para persisitir os dados utilize o meio que achar mais conveniente :).
+Para persistir os dados utilize o meio que achar mais conveniente :).
 
-###  O que iremos avaliar
+### O que iremos avaliar
 
 - Modelagem de Dados
 - Domínio da Linguagem

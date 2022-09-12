@@ -33,7 +33,7 @@ Nos explique utilizando diagramas, texto, ou o que for, como você subirá essa 
 
 #### Etapa 2 - Automações
 
-Nos explique como e utilizando qual ferramenta vc automatizaria um processo de deploy para uma infraestrutura de microserviços.
+Nos explique como e utilizando qual ferramenta vc automatizaria um processo de deploy para uma infraestrutura de micro serviços.
 
 #### Etapa 3 - Segurança
 

@@ -1,9 +1,8 @@
 ### Teste para Design
 
-O desafio da área de design da ZRP busca estimular o candidato a expressar suas diferentes habilidades de projeto, podendo se estruturar nos seus alicerces mas também mostrando sua versatilidade. 
+O desafio da área de design da ZRP busca estimular o candidato a expressar suas diferentes habilidades de projeto, podendo se estruturar nos seus alicerces mas também mostrando sua versatilidade.
 
 Todos os designers da ZRP buscam ter uma atuação multi funcional que transite pelas perspectivas técnicas e subjetivas de um bom projeto, sem se ater a uma especialidade e sim a um amplo domínio do desenho de um produto complexo.
-
 
 O teste consiste de duas partes:
 
@@ -25,7 +24,7 @@ A segunda parte consiste em um modelo simplificado, de estilo visual livre, de u
 - Entretenimento
 - Saúde
 
-A idéia é fazer um protótipo simples que demonstra a lógica, o conceito, de um produto. Focado na experiência do usuário e na visão de mercado de tecnologia.
+A ideia é fazer um protótipo simples que demonstra a lógica, o conceito, de um produto. Focado na experiência do usuário e na visão de mercado de tecnologia.
 
 ##### Critérios de avaliação:
 
