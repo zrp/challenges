@@ -1,4 +1,4 @@
-### Teste para Product Owner 
+### Teste para Product Owner
 
 Bem vindo(a) ao processo seletivo para uma vaga de Product Owner na ZRP!
 
@@ -26,7 +26,7 @@ O sucesso da cerveja produzida por estes garotos chamou a atenção da pequena c
 
 Dado o elevado tempo de produção da cerveja artesanal (cerca de 1 mês do primeiro dia de produção até o produto ficar pronto para a entrega) e a alta demanda, o modelo tradicional de organização para a venda de cerveja, que ainda é aplicado, deixou de dar conta do recado. Com o aumento da produção, surgiram muitas dificuldades na gestão das matérias primas e dos estoques disponíveis para venda, controle de pedidos, organização das entregas e também dificuldade de relacionamento com clientes a partir destes mencionados problemas.
 
-O modelo atual de trabalho de Caio é ainda baseado (I) na produção “livre” da cerveja, onde um pequeno galpão nos fundos de sua residência agrupam os equipamentos, fermentadores e também as matérias primas, (II) no atendimento por telefone e (III) na entrega da cerveja em mãos na garagem do Caio. 
+O modelo atual de trabalho de Caio é ainda baseado (I) na produção “livre” da cerveja, onde um pequeno galpão nos fundos de sua residência agrupam os equipamentos, fermentadores e também as matérias primas, (II) no atendimento por telefone e (III) na entrega da cerveja em mãos na garagem do Caio.
 
 Para evoluir o seu modelo de negócios, de forma a corresponder às expectativas do novo investidor, o Caio procurou a ZRP e disse que precisa de:
 
@@ -36,7 +36,7 @@ Para evoluir o seu modelo de negócios, de forma a corresponder às expectativas
 
 **(c) automatização da entrega de pedidos prontos.**
 
-Para responder a esta 1ª fase, pede-se apenas que você escolha um dos problemas (a, b ou c) mencionados pelo Caio e escreva uma **Visão de Produto** para algo que solucione o problema escolhido. Justifique porque priorizou esta opção e não qualquer uma das outras. 
+Para responder a esta 1ª fase, pede-se apenas que você escolha um dos problemas (a, b ou c) mencionados pelo Caio e escreva uma **Visão de Produto** para algo que solucione o problema escolhido. Justifique porque priorizou esta opção e não qualquer uma das outras.
 
 ### 2ª fase do teste
 

@@ -19,6 +19,7 @@ Nossa venda também é sempre CONSULTIVA. Somos orgulhosos de sermos resolvedore
 E falando sobre nosso cliente ideal, nosso alvo pode ter duas faces:
 
 **Alvo I**
+
 - Empresa localizada no Sudeste de SP.
 - Entre 10 e 50 funcionários com alto crescimento ou estável com mais de 50 funcionários.
 - Empresa sem base tecnológica.
@@ -27,6 +28,7 @@ E falando sobre nosso cliente ideal, nosso alvo pode ter duas faces:
 - Foco em qualidade e estratégia digital a longo prazo.
 
 **Alvo II**
+
 - Empresa localizada no Brasil.
 - Todos os segmentos de tamanho.
 - Ciclo de compra menor do que 2 meses.
@@ -75,7 +77,6 @@ Ele aceitou o seu convite para uma reunião de qualificação, e o seu objetivo 
 A ZRP é uma consultoria tecnológica especializada em desenvolvimento de software, concepção e implementação de produtos e serviços digitais, crescimento e expansão de negócios, construção de times ágeis, disseminação de tecnologia nas organizações e formadora de líderes técnicos.
 
 Nosso time de desenvolvimento é composto de desenvolvedores, gerentes de produto, analistas de qualidade e designers, que garantem o pensamento fora da caixa e um produto com um alto padrão de qualidade.
-
 
 #### Entrega
 
