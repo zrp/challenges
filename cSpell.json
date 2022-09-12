@@ -2,51 +2,7 @@
   "version": "0.2",
   "language": "en",
   "caseSensitive": false,
-  "words": [
-    "Techblog",
-    "Perfeitolândia",
-    "Sulamérica",
-    "Pipefy",
-    "mentoria",
-    "mentorias",
-    "mentorado",
-    "Zenklub",
-    "Penho",
-    "Penhos",
-    "ptos",
-    "Rappi",
-    "Photoshop",
-    "assincronicidade",
-    "devs",
-    "Endomarketing",
-    "behance",
-    "Containerização",
-    "fluxolongo",
-    "folguistas",
-    "PMO's",
-    "prototipar",
-    "RCRCRC",
-    "mensageria",
-    "ATDD",
-    "Moolya",
-    "roadmap",
-    "roadmaps",
-    "branchs",
-    "projetinho",
-    "entregável",
-    "Simbora",
-    "Vaaaaaaaaaai",
-    "Cabify",
-    "dailys",
-    "kanban",
-    "burndown",
-    "burndowns",
-    "ODBC",
-    "upsellings",
-    "likert",
-    "Todxs",
-    "vindx"
-  ],
+  "words": [],
   "flagWords": [],
   "ignorePaths": [
     "node_modules/**"
@@ -67,12 +23,7 @@
   ],
   "ignoreRegExpList": [
     "zrp",
-    "docker",
-    "md-link",
-    "vuepress-tag",
-    "html-tag",
-    "slack-tag",
-    "emoji"
+    "docker"
   ],
   "patterns": [
     {
@@ -82,26 +33,6 @@
     {
       "name": "docker",
       "pattern": "/docker\\w+/gi"
-    },
-    {
-      "name": "md-link",
-      "pattern": "/\\[.+\\]\\(\\S+\\)/g"
-    },
-    {
-      "name": "vuepress-tag",
-      "pattern": "/{{\\W\\$\\S+\\W}}/g"
-    },
-    {
-      "name": "html-tag",
-      "pattern": "<(img|iframe)[\\w\\W]+?>"
-    },
-    {
-      "name": "slack-tag",
-      "pattern": "@\\S+"
-    },
-    {
-      "name": "emoji",
-      "pattern": ":\\S+:"
     }
   ]
 }
