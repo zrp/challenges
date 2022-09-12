@@ -1,0 +1,107 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "caseSensitive": false,
+  "words": [
+    "Techblog",
+    "Perfeitolândia",
+    "Sulamérica",
+    "Pipefy",
+    "mentoria",
+    "mentorias",
+    "mentorado",
+    "Zenklub",
+    "Penho",
+    "Penhos",
+    "ptos",
+    "Rappi",
+    "Photoshop",
+    "assincronicidade",
+    "devs",
+    "Endomarketing",
+    "behance",
+    "Containerização",
+    "fluxolongo",
+    "folguistas",
+    "PMO's",
+    "prototipar",
+    "RCRCRC",
+    "mensageria",
+    "ATDD",
+    "Moolya",
+    "roadmap",
+    "roadmaps",
+    "branchs",
+    "projetinho",
+    "entregável",
+    "Simbora",
+    "Vaaaaaaaaaai",
+    "Cabify",
+    "dailys",
+    "kanban",
+    "burndown",
+    "burndowns",
+    "ODBC",
+    "upsellings",
+    "likert",
+    "Todxs",
+    "vindx"
+  ],
+  "flagWords": [],
+  "ignorePaths": [
+    "node_modules/**"
+  ],
+  "dictionaries": [
+    "en_US",
+    "pt-br",
+    "companies",
+    "softwareTerms",
+    "typescript",
+    "bash",
+    "html",
+    "node",
+    "npm"
+  ],
+  "import": [
+    "node_modules/cspell-dict-pt-br/cspell-ext.json"
+  ],
+  "ignoreRegExpList": [
+    "zrp",
+    "docker",
+    "md-link",
+    "vuepress-tag",
+    "html-tag",
+    "slack-tag",
+    "emoji"
+  ],
+  "patterns": [
+    {
+      "name": "zrp",
+      "pattern": "/zrp\\w+/gi"
+    },
+    {
+      "name": "docker",
+      "pattern": "/docker\\w+/gi"
+    },
+    {
+      "name": "md-link",
+      "pattern": "/\\[.+\\]\\(\\S+\\)/g"
+    },
+    {
+      "name": "vuepress-tag",
+      "pattern": "/{{\\W\\$\\S+\\W}}/g"
+    },
+    {
+      "name": "html-tag",
+      "pattern": "<(img|iframe)[\\w\\W]+?>"
+    },
+    {
+      "name": "slack-tag",
+      "pattern": "@\\S+"
+    },
+    {
+      "name": "emoji",
+      "pattern": ":\\S+:"
+    }
+  ]
+}
