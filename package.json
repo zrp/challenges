@@ -1,0 +1,14 @@
+{
+  "name": "challenges",
+  "scripts": {
+    "lint": "npm run lint:md && npm run lint:spell",
+    "lint:md": "markdownlint \"./**/*.md\" --ignore \"node_modules/**/*\"",
+    "lint:md:fix": "markdownlint --fix \"./**/*.md\" --ignore \"node_modules/**/*\"",
+    "lint:spell": "npx cspell lint --show-suggestions --gitignore --no-progress \"./**/*.md\""
+  },
+  "devDependencies": {
+    "cspell": "^6.8.1",
+    "cspell-dict-pt-br": "^1.1.1",
+    "markdownlint-cli": "^0.32.2"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "caseSensitive": false,
+  "words": [],
+  "flagWords": [],
+  "ignorePaths": [
+    "node_modules/**"
+  ],
+  "dictionaries": [
+    "en_US",
+    "pt-br",
+    "companies",
+    "softwareTerms",
+    "typescript",
+    "bash",
+    "html",
+    "node",
+    "npm"
+  ],
+  "import": [
+    "node_modules/cspell-dict-pt-br/cspell-ext.json"
+  ],
+  "ignoreRegExpList": [
+    "zrp",
+    "docker"
+  ],
+  "patterns": [
+    {
+      "name": "zrp",
+      "pattern": "/zrp\\w+/gi"
+    },
+    {
+      "name": "docker",
+      "pattern": "/docker\\w+/gi"
+    }
+  ]
+}

@@ -1,4 +1,5 @@
-### Teste de infraestrutura 
+### Teste de infraestrutura
+
 Este é o teste usado por nós aqui da ZRP para avaliar tecnicamente os candidatos a nossas vagas de devops. Se você estiver participando de um processo seletivo para nossa equipe, certamente em algum momento receberá este link, mas caso você tenha chegado aqui "por acaso", sinta-se convidado a desenvolver nosso teste e enviar uma mensagem para nós no e-mail jobs@zrp.com.br.
 
 Aqui na ZRP nós aplicamos este mesmo teste para as vagas em todos os níveis, ou seja, um candidato a uma vaga de devops júnior fará o mesmo teste de um outro candidato a uma vaga de devops sênior, mudando obviamente o nosso critério de avaliação do resultado do teste.
@@ -17,7 +18,7 @@ Você pode escolher qual das etapas desenvolverá ou desenvolver todas, fica a s
 
 #### Etapa 1 - Infra as a Service
 
-Chegou um desafio novo para a área de infra estrutura! Subir um backend de um app. 
+Chegou um desafio novo para a área de infra estrutura! Subir um backend de um app.
 Considerando que:
 
 - Deve-se ter um único link para o backend
@@ -33,7 +34,7 @@ Nos explique utilizando diagramas, texto, ou o que for, como você subirá essa 
 
 #### Etapa 2 - Automações
 
-Nos explique como e utilizando qual ferramenta vc automatizaria um processo de deploy para uma infraestrutura de microserviços.
+Nos explique como e utilizando qual ferramenta vc automatizaria um processo de deploy para uma infraestrutura de micro serviços.
 
 #### Etapa 3 - Segurança
 
@@ -43,7 +44,8 @@ Supondo que você tenha que implementar uma política de controle de acessos e p
 - 10 pessoas na mesma equipe, em dois squads, todos devem ter acesso a tudo
 - 30 pessoas na mesma equipe, seis squads, cada squad deve ter acesso apenas a recursos que eles precisarem desenvolver e com nível restrito de acesso
 
-###  O que iremos avaliar
+### O que iremos avaliar
+
 - Clareza das explicações
 - Uso de referências bem definidas
 - Boa previsibilidade de custos

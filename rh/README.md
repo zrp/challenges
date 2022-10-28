@@ -1,16 +1,16 @@
 ### Teste para RH
 
-Bem vindo(a) ao processo seletivo para uma vaga de RH na ZRP! 
+Bem vindo(a) ao processo seletivo para uma vaga de RH na ZRP!
 
-Neste momento iremos avaliar seu conhecimento acerca do processo de um profissional na área, sua proatividade e também sua capacidade de solucionar problemas presentes no dia a dia de um(a) profissional aqui na ZRP. Para isso, você terá a liberdade que precisa para bolar as melhores estratégias e nos explicar como que tudo isso foi desenvolvido. 
+Neste momento iremos avaliar seu conhecimento acerca do processo de um profissional na área, sua proatividade e também sua capacidade de solucionar problemas presentes no dia a dia de um(a) profissional aqui na ZRP. Para isso, você terá a liberdade que precisa para bolar as melhores estratégias e nos explicar como que tudo isso foi desenvolvido.
 
 Sinta-se livre para pesquisar e adicionar conhecimentos externos como base em sua argumentação. Além disso, escreva tudo que deseja. É muito importante para nós termos uma visão do quanto você está preparado(a) para essa vaga!
 
-Aproveitamos também para ressaltar que neste momento só restaram os(as) melhores profissionais, portanto, se você está aqui, você é um(a) deles(as)! 
+Aproveitamos também para ressaltar que neste momento só restaram os(as) melhores profissionais, portanto, se você está aqui, você é um(a) deles(as)!
 
 Então PARABÉNS - mas caso você tenha chegado aqui "por acaso", sinta-se convidado(a) a desenvolver nosso teste e enviar uma mensagem para nós no e-mail jobs@zrp.com.br.
 
-Vamos lá? 
+Vamos lá?
 
 #### Introdução
 
@@ -35,7 +35,7 @@ Tendo isso em mente nos conte como que você avaliaria e quais critérios você 
 
 Pode usar cases como referência ou se inspirar em empresas existentes, sem problemas.
 
-#### Processo seletivo: 
+#### Processo seletivo:
 
 Contratar pessoas e contratar pessoas técnicas é uma tarefa complicada e sensível - facilmente alguém que não sabe algo pode 'fingir' ou 'enganar' quem não é técnico. Por isso, aqui na ZRP nós sempre deixamos a parte técnica para os técnicos - especialistas entrevistam especialistas.
 
