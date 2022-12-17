@@ -45,6 +45,6 @@ Desenvolvemos  uma aplicação para você demonstrar sua atuação como QA (e no
 
 Para acessar a aplicação, utilize o link e as credenciais abaixo:
 
-    Link para a aplicação: http://zrp-challenges-qa.s3-website-us-east-1.amazonaws.com/
+    Link para a aplicação: https://zrp-challenges-qa.s3-website-us-east-1.amazonaws.com/
     E-mail: maria@gmail.com
     Senha: 1234
