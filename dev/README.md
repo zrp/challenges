@@ -60,14 +60,14 @@ Cada ameça tem o seguinte formato:
 
 ```json
 {
-    location: [{
-        lat: -5.836597,
-        lng: -35.236007,
+    "location": [{
+        "lat": -5.836597,
+        "lng": -35.236007,
     }],
-    dangerLevel: 'Dragon',
-    monsterName: 'Black Dragon',
-    monster: {
-      'key': 'value'
+    "dangerLevel": "Dragon",
+    "monsterName": "Black Dragon",
+    "monster": {
+      "key": "value"
     }
 }
 ```
