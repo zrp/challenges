@@ -74,11 +74,9 @@ Cada ameça tem o seguinte formato:
 
 A url do serviço é `https://zrp-challenges-dev-production.up.railway.app/`, esse serviço emite um evento `occurrence`, indicando uma nova ameaça, a cada 30s.
 
-Você pode ver as ameaças em tempo real acessando https://zrp-challenges-dev-demo-production.up.railway.app/
+Você pode ver as ameaças em tempo real acessando https://zrp-challenges-dev-demo-production.up.railway.app/.
 
-Não sabe como se conectar e ouvir a eventos do socket.io? Veja a documentação [nesse link](https://socket.io/docs/client-api/).
-
-OBS: Estamos usando a versão 4 do socket.io
+Não sabe como se conectar e ouvir a eventos do socket.io? Veja a documentação [nesse link](https://socket.io/docs/v4/).
 
 ##### Nível 4 - Histórico de ameaças
 
