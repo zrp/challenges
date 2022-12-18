@@ -54,7 +54,9 @@ Nível God, Dragon, Tiger e Wolf.
 - Heróis do rank classe "B" tem prioridade sobre ameaças do tipo "Tiger" - uma batalha com uma ameaça desse nível deve durar no mínimo 10 segundos e no máximo 20 segundos;
 - Heróis do rank classe "C" tem prioridade sobre ameaças do tipo "Wolf" - uma batalha com uma ameaça desse nível deve durar no mínimo 1 segundo e no máximo 2 segundos;
 
-Você devera consumir um socket (construído utilizando o **socket.io** que retorna as informações das ameaças, cada ameça tem o seguinte formato de objeto:
+Você devera consumir um socket (construído utilizando o **socket.io**) que retorna as informações das ameaças detectadas.
+
+Cada ameça tem o seguinte formato:
 
 ```json
 {
@@ -64,16 +66,19 @@ Você devera consumir um socket (construído utilizando o **socket.io** que reto
     }],
     dangerLevel: 'Dragon',
     monsterName: 'Black Dragon',
+    monster: {
+      'key': 'value'
+    }
 }
 ```
 
-A url do serviço de socket é a:
+A url do serviço é `https://zrp-challenges-dev-production.up.railway.app/`, esse serviço emite um evento `occurrence`, indicando uma nova ameaça, a cada 30s.
 
-`https://zrp-challenge-socket.herokuapp.com`
+Você pode ver as ameaças em tempo real acessando https://zrp-challenges-dev-demo-production.up.railway.app/
 
-E o evento a ser escutado é o `occurrence`
+Não sabe como se conectar e ouvir a eventos do socket.io? Veja a documentação [nesse link](https://socket.io/docs/client-api/).
 
-Caso queira referência de como se conectar ao websocket veja [esse link](https://socket.io/docs/client-api/).
+OBS: Estamos usando a versão 4 do socket.io
 
 ##### Nível 4 - Histórico de ameaças
 
