@@ -1,6 +1,6 @@
 ### Teste para Design
 
-O desafio da área de design da ZRP busca estimular o candidato a expressar suas diferentes habilidades de projeto, podendo se estruturar nos seus alicerces mas também mostrando sua versatilidade.
+O desafio da área de design da ZRP busca estimular o(a) candidato(a) a expressar suas diferentes habilidades de projeto, podendo se estruturar nos seus alicerces mas também mostrando sua versatilidade.
 
 Todos os designers da ZRP buscam ter uma atuação multi funcional que transite pelas perspectivas técnicas e subjetivas de um bom projeto, sem se ater a uma especialidade e sim a um amplo domínio do desenho de um produto complexo.
 
@@ -35,5 +35,10 @@ A ideia é fazer um protótipo simples que demonstra a lógica, o conceito, de u
 
 #### Envio
 
-As ferramentas de trabalho e formato da entrega ficam a critério do candidato, e também serão avaliados nos mesmos quesitos descritos nas etapas.
-Para enviar seu desafio basta enviar o resultado final para jobs@zrp.com.br
+As ferramentas de trabalho e formato da entrega ficam a critério do(a) candidato(a), e também serão avaliados nos mesmos quesitos descritos nas etapas.
+Para enviar seu desafio basta enviar o resultado final para jobs@zrp.com.br.
+
+#### Próximos passos
+
+Seu desafio será revisado por um dos nossos especialistas e entraremos em contato tanto caso você tenha sido aprovado(a), quanto caso seja recusado(a).
+Caso tenha sido aprovado(a) iremos querer que você explique para o nosso especialista porque você tomou as decisões que tomou e justifique suas escolhas! Venha preparado(a)!!
