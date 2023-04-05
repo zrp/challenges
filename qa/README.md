@@ -34,7 +34,7 @@ Preencha o formulário abaixo que analisa suas características e nos diga qual 
 
 ### 4ª e última fase do teste:
 
-Desenvolvemos  uma aplicação para você demonstrar sua atuação como QA (e nos surpreender <3). Como QA do projeto, defina casos de teste para a funcionalidade de “Cadastrar usuário”, execute testes manuais em toda a aplicação, e, caso encontre, reporte os bugs identificados. As funcionalidades da aplicação são:
+Desenvolvemos  uma aplicação para você demonstrar sua atuação como QA (e nos surpreender <3). Como QA do projeto, defina os casos de teste apenas para a funcionalidade de “Cadastrar usuário”, execute testes manuais em toda a aplicação, e, caso encontre, reporte os bugs identificados. As funcionalidades da aplicação são:
 
     1. Login
     2. Cadastrar usuário
@@ -45,6 +45,6 @@ Desenvolvemos  uma aplicação para você demonstrar sua atuação como QA (e no
 
 Para acessar a aplicação, utilize o link e as credenciais abaixo:
 
-    Link para a aplicação: https://zrp-challenges-qa.s3-website-us-east-1.amazonaws.com/
+    Link para a aplicação: http://zrp-challenges-qa.s3-website-us-east-1.amazonaws.com/
     E-mail: maria@gmail.com
     Senha: 1234
