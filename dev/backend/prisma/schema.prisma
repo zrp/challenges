@@ -19,3 +19,40 @@ model User {
 
   name String
 }
+
+model Hero {
+  id                   Int      @id @default(autoincrement())
+  name                 String
+  class              Class  @default(C)
+  lati            Float
+  longi            Float
+  battle_end_timestamp  DateTime?
+  histories            History[]
+
+}
+
+model History {
+  id            Int      @id @default(autoincrement())
+  heroId        Int
+  hero          Hero     @relation(fields: [heroId], references: [id])
+  threatName    String   // Nome da ameaça
+  threatRank    ThreatRank   // Rank da ameaça
+  duration      Int      // Duração da ameaça em segundos
+  createdAt     DateTime @default(now())
+
+  @@index([heroId])
+}
+
+  enum Class {
+    S
+    A
+    B
+    C
+  }
+
+  enum ThreatRank  {
+    God
+    Dragon
+    Tiger
+    Wolf
+  }
