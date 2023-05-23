@@ -1,18 +1,12 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
-
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-
-
-README do Projeto Backend (Nest.js com Prisma.io)
-==================================================
+<div style="text-align: center;">
+  <img src="https://docs.nestjs.com/assets/logo-small.svg" alt="Nest.js Logo" width="200">
+  <img src="https://prismalens.vercel.app/header/logo-dark.svg" alt="Nest.js Logo" width="200">
+</div>
 
 Tecnologias Utilizadas:
-- Nest.js: Framework Node.js para construção de aplicativos escaláveis e eficientes.
-- Prisma: ORM (Object-Relational Mapping) para interação com banco de dados.
-- Socket.IO: Biblioteca para comunicação em tempo real usando WebSockets.
+- Nest.js (v8.0.0): Framework Node.js para construção de aplicativos escaláveis e eficientes.
+- Prisma (v3.8.1): ORM (Object-Relational Mapping) para interação com banco de dados.
+- Socket.IO (v4.3.1): Biblioteca para comunicação em tempo real usando WebSockets.
 
 Estrutura de Pastas:
 ```
@@ -35,11 +29,11 @@ projeto
 Instruções para Execução:
 ------------------------------
 
-1. Certifique-se de ter o Node.js e o banco de dados (MySQL, PostgreSQL, etc.) instalados em sua máquina.
+1. Certifique-se de ter o Node.js (v16.17.1) e o banco de dados (MySQL, PostgreSQL, etc.) instalados em sua máquina.
 
 2. Faça o clone do repositório do projeto backend:
 ```
-git clone <URL_DO_REPOSITÓRIO>
+git clone https://github.com/chagas42/challenges
 ```
 
 3. Acesse a pasta do projeto backend:
@@ -54,7 +48,9 @@ npm install
 
 5. Configure as variáveis de ambiente necessárias. Crie um arquivo `.env` na raiz do projeto e defina as variáveis de acordo com suas configurações.
 
-6. Execute as migrações do banco de dados:
+6. Execute as
+
+ migrações do banco de dados:
 ```
 npx prisma migrate dev
 ```
@@ -67,7 +63,3 @@ npm run start:dev
 8. O servidor será iniciado e estará aguardando requisições na porta definida (geralmente 3000).
 
 Observação: Certifique-se de que o serviço de banco de dados esteja em execução e que as configurações de conexão estejam corretas no arquivo `.env`.
-
-## License
-
-Nest is [MIT licensed](LICENSE).
