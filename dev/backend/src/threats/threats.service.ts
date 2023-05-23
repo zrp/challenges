@@ -26,18 +26,10 @@ export class ThreatsService {
   };
 
   async processThreatOccurrence(occurrence: ThreatOccurrence) {
-    //buscar por herois que estejam perto e no rank adequado;
-    //apos o match de hero X threat alocar o heroi (alterar lati & longi & tempo de fim da batalha)
-    //gerar um registro na entidade de historico de threats
-    const matchingHero = await this.heroService.getAvailableHero(
+    await this.heroService.getAvailableHero(
       occurrence.location,
       this.threatClassMap[occurrence.dangerLevel],
       occurrence,
     );
-    // console.log('match!:', matchingHero);
-    // Execute ação desejada com base na ocorrência recebida
-    // Implemente a lógica para alocar o herói adequado com base na ameaça e seu rank
-    // Use a lógica descrita nas regras do desafio para determinar o tempo de batalha e prioridades
-    // console.log('Alocando herói para ameaça:', occurrence);
   }
 }

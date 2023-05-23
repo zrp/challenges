@@ -90,12 +90,6 @@ export class HerosService {
       battleEndTimestamp.getSeconds() + battleDuration,
     );
 
-    // console.log('update:', {
-    //   now: new Date(),
-    //   battleEndTimestamp,
-    //   battleDuration,
-    // });
-
     const historyCreatePayload: CreateHistoryDto = {
       duration: battleDuration,
       heroId: hero.id,
@@ -111,7 +105,6 @@ export class HerosService {
         longi: location.lng,
       },
     });
-    console.log('oi');
     this.historyService.createHistory(historyCreatePayload);
     return updatedHero;
   }
@@ -120,6 +113,7 @@ export class HerosService {
     const data: Prisma.HeroCreateInput = {
       ...createHeroDto,
       battle_end_timestamp: new Date(),
+      active: true,
     };
 
     const createdHero = await this.prisma.hero.create({ data });
@@ -130,7 +124,11 @@ export class HerosService {
   }
 
   async findAll() {
-    return await this.prisma.hero.findMany();
+    return await this.prisma.hero.findMany({
+      where: {
+        active: true,
+      },
+    });
   }
 
   async getAvailableHero(
@@ -205,7 +203,12 @@ export class HerosService {
       throw new NotFoundException(`Hero with ID ${id} not found`);
     }
 
-    const deletedHero = await this.prisma.hero.delete({ where: { id } });
+    const deletedHero = await this.prisma.hero.update({
+      where: { id },
+      data: {
+        active: false,
+      },
+    });
 
     return deletedHero;
   }

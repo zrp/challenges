@@ -7,7 +7,21 @@ export class HistoryService {
   constructor(private readonly prisma: PrismaService) {}
 
   async createHistory(createHistoryDto: CreateHistoryDto) {
-    console.log('history created:', createHistoryDto);
     return this.prisma.history.create({ data: createHistoryDto });
+  }
+
+  async findAllWithHeroCoordinates(): Promise<any[]> {
+    return this.prisma.history.findMany({
+      include: {
+        hero: {
+          select: {
+            lati: true,
+            longi: true,
+            name: true,
+            class: true,
+          },
+        },
+      },
+    });
   }
 }

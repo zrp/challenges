@@ -28,6 +28,7 @@ model Hero {
   longi            Float
   battle_end_timestamp  DateTime?
   histories            History[]
+  active           Boolean @default(true)  
 
 }
 

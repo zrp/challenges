@@ -8,7 +8,6 @@ import { PrismaModule } from './prisma/prisma.module';
 import { UserModule } from './user/user.module';
 import { HerosModule } from './heros/heros.module';
 import { ThreatsModule } from './threats/threats.module';
-import { ThreatsGateway } from './threats/threats.gateway';
 import { ThreatsService } from './threats/threats.service';
 import { HistoryModule } from './history/history.module';
 import { HistoryController } from './history/history.controller';
@@ -32,7 +31,6 @@ import { HerosController } from './heros/heros.controller';
   ],
   providers: [
     AppService,
-    ThreatsGateway,
     ThreatsService,
     {
       provide: APP_GUARD,

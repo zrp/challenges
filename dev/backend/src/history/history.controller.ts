@@ -1,4 +1,4 @@
-import { Body, Controller, Post } from '@nestjs/common';
+import { Body, Controller, Post, Get } from '@nestjs/common';
 import { HistoryService } from './history.service';
 import { CreateHistoryDto } from './dto/create-history.dto';
 
@@ -9,5 +9,10 @@ export class HistoryController {
   @Post()
   createHistory(@Body() createHistoryDto: CreateHistoryDto) {
     return this.historyService.createHistory(createHistoryDto);
+  }
+
+  @Get()
+  getHistory() {
+    return this.historyService.findAllWithHeroCoordinates();
   }
 }

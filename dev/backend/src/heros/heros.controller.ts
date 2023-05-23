@@ -6,7 +6,6 @@ import {
   Patch,
   Param,
   Delete,
-  Put,
 } from '@nestjs/common';
 import { HerosService } from './heros.service';
 import { CreateHeroDto } from './dto/create-hero.dto';
@@ -30,11 +29,6 @@ export class HerosController {
   findOne(@Param('id') id: string) {
     return this.herosService.findOne(+id);
   }
-
-  // @Put('find')
-  // getHero() {
-  //   return this.herosService.getAvailableHero();
-  // }
 
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateHeroDto: UpdateHeroDto) {
