@@ -7,6 +7,12 @@ const RouteProtector: React.FC<{children: React.ReactNode}> = ({ children }) => 
   useEffect(() => {
     const handleRouteChangeError = (url: string) => {
       // Redirecionar para a página de erro se a rota não existir
+
+      if(url === '/') {
+        router.push('/login');
+        return;
+      }
+
       router.push('/404');
     };
 
