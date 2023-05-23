@@ -61,7 +61,6 @@ export function FormInput({
   }
   const errors = lastObj;
 
-  console.log(formErrors)
 
 
   return (

@@ -1,32 +1,31 @@
 import { useRouter } from 'next/router';
-import { useEffect } from 'react';
 
-const RouteProtector: React.FC<{children: React.ReactNode}> = ({ children }) => {
-  const router = useRouter();
+import { createContext, useEffect } from 'react';
+import { useTokenStore } from '../hooks/useTokenStore';
+
+
+const RouteProtectContext = createContext({});
+
+const globalRoutes = [
+  '/login',
+  '/signup',
+];
+const RouteProtectProvider: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
+  const { pathname, push } = useRouter();
+  const isProtected = !globalRoutes.includes(pathname)
+  const { token } = useTokenStore();
 
   useEffect(() => {
-    const handleRouteChangeError = (url: string) => {
-      // Redirecionar para a página de erro se a rota não existir
+    const finalRoute = token ? pathname :'/login' ;
+    if (isProtected) {
+      push(finalRoute);
+    }
 
-      if(url === '/') {
-        router.push('/login');
-        return;
-      }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pathname]);
 
-      router.push('/404');
-    };
 
-    // Adicionar um ouvinte para lidar com erros de mudança de rota
-    router.events.on('routeChangeError', handleRouteChangeError);
-
-    // Remover o ouvinte quando o componente for desmontado
-    return () => {
-      router.events.off('routeChangeError', handleRouteChangeError);
-    };
-  }, [router]);
-
-  // Renderizar as rotas do aplicativo
-  return <>{children}</>;
+  return <RouteProtectContext.Provider value={{}}>{children}</RouteProtectContext.Provider>;
 };
 
-export default RouteProtector;
+export { RouteProtectProvider, RouteProtectContext };

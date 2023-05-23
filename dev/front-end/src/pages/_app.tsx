@@ -5,7 +5,7 @@ import { QueryClient, QueryClientProvider } from 'react-query';
 
 import { useRouter } from 'next/router';
 import AuthProtect from './AuthProtect';
-import RouteProtector from './RouteProtector';
+import { RouteProtectProvider } from './RouteProtector';
 
 const queryClient = new QueryClient();
 const noLayoutRoutes = ['/login', '/signup', '/404'];
@@ -28,11 +28,11 @@ function MyApp({ Component, pageProps }) {
                 <Component {...pageProps} />
               ) : (
                 <SideBar currentRoute={pathname}>
-                  <RouteProtector>
+                  <RouteProtectProvider>
                     <AuthProtect>
                       <Component {...pageProps} />
                     </AuthProtect>
-                  </RouteProtector>
+                  </RouteProtectProvider>
                 </SideBar>
               )
               }
