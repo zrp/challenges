@@ -51,29 +51,32 @@ npm install
 ```
 5. Configure as variáveis de ambiente necessárias. Crie um arquivo `.env` na raiz do projeto e defina as variáveis de acordo com o `.env.example`.
 
-6. Execute as migrações do banco de dados:
+6. (Opcional) Se preferir, você pode executar o projeto usando o Docker. Certifique-se de ter o Docker instalado em sua máquina.
+
+7. Na raiz do projeto backend, você tem o arquivo `docker-compose.yml`. Abra o terminal na pasta raiz e execute o seguinte comando para iniciar o container do banco de dados:
+
+```
+docker-compose up -d
+```
+
+8. Execute as migrações do banco de dados:
 
 ```
 npx prisma migrate dev
 ```
 
-7. Execute o projeto:
+9. Execute o projeto:
 ```
 npm run start:dev
 ```
 
-8. O servidor será iniciado e estará aguardando requisições na porta definida (geralmente 3000).
+10. O servidor será iniciado e estará aguardando requisições na porta definida (geralmente 3000).
 
 
 
 
-9. (Opcional) Se preferir, você pode executar o projeto usando o Docker. Certifique-se de ter o Docker instalado em sua máquina.
-
-10. Na raiz do projeto backend, você tem o arquivo `docker-compose.yml`. Abra o terminal na pasta raiz e execute o seguinte comando para iniciar o container do banco de dados:
 
 
-```
-docker-compose up -d
-```
+
 
 Observação: Certifique-se de que o serviço de banco de dados esteja em execução e que as configurações de conexão estejam corretas no arquivo `.env`.
