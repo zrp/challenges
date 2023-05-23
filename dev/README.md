@@ -1,123 +1,24 @@
-### iHeros - Teste Fullstack
 
-Este é o teste usado por nós aqui da ZRP para avaliar tecnicamente os candidatos a nossas vagas de desenvolvedores Fullstack. Se você estiver participando de um processo seletivo para nossa equipe, certamente em algum momento receberá este link, mas caso você tenha chegado aqui "por acaso", sinta-se convidado a desenvolver nosso teste e enviar uma mensagem para nós no e-mail jobs@zrp.com.br.
+## Decisões Tomadas
 
-Aqui na ZRP nós aplicamos este mesmo teste para as vagas em todos os níveis, ou seja, um candidato a uma vaga de dev júnior fará o mesmo teste de um outro candidato a uma vaga de dev sênior, mudando obviamente o nosso critério de avaliação do resultado do teste e nossa expectativa de passos entregues.
+Durante a resolução deste teste, algumas decisões foram tomadas para definir as tecnologias e abordagens utilizadas. Aqui estão as principais decisões:
 
-Nós fazemos isso esperando que as pessoas mais iniciantes entendam qual o modelo de profissional que temos por aqui e que buscamos para o nosso time. Portanto, se você estiver se candidatando a uma vaga mais iniciante, não se assuste, e faça o melhor que você puder e os passos que conseguir!
+1. Framework Frontend: Optei por utilizar o Next.js como framework para o frontend. Escolhi o Next.js devido à sua estrutura e escalabilidade, além de já ter familiaridade com essa ferramenta, o que diminui a curva de aprendizado.
 
-### Instruções
+2. Framework Backend: Escolhi o NestJS como framework para o backend. O NestJS é uma opção bastante simples de utilizar e escalável. Além disso, utilizei o Prisma como ORM para interação com o banco de dados, facilitando a manipulação e persistência dos dados.
 
-Você deverá criar um fork deste projeto, e desenvolver em cima do seu fork. **Use o README principal do seu repositório para nos contar como foi resolver seu teste**, as decisões tomadas, como você organizou e separou seu código, e principalmente **as instruções de como rodar seu projeto**.
+3. Banco de Dados: Optei por utilizar um banco de dados relacional, como o MySQL ou PostgreSQL, devido à natureza dos dados e à necessidade de relacionamentos entre as entidades.
 
-Lembre-se que este é um teste técnico e não um concurso público, portanto, não existe apenas uma resposta correta. Mostre que você é bom e nos impressione, mas não esqueça do objetivo do projeto.
+4. Autenticação: Implementei um sistema de autenticação e cadastro para usuários administrativos, permitindo o acesso às funcionalidades da plataforma logada.
 
-Nós não definimos um tempo limite geral para resolução deste teste, o que vale para nós é o resultado final e a evolução da criação do projeto até se atingir este resultado. Você deve alinhar junto com o RH **quais passos você irá implementar** e **quanto tempo você demorará para fazê-los**.
+5. CRUD de Heróis: Desenvolvi as funcionalidades de criação, edição, remoção e listagem de heróis no ambiente logado.
 
-#### Descrição
+6. Alocação de Heróis: Implementei a lógica de alocação de heróis com base nas ameaças detectadas pelo sistema de emissão da ONU. Os heróis são alocados de acordo com sua localização e rank adequado ao nível de ameaças.
 
-> Rede de cadastro(test backend) e distribuição (test frontend) de heroes, levando em consideração o nível da ameaça que estaria atacando uma determinada região.
+7. Histórico de Ameaças: Criei uma tela para exibir as informações do herói que combateu cada ameaça, incluindo a duração da batalha.
 
-Você está no ano de 3150 e está a frente do setor de tecnologia responsável pelo desenvolvimento do sistema de gerenciamento de distribuição de heróis para combater ameaças. O sistema deve monitorar as alertas de ameças providas pela ONU e alocar os heróis para cada nova ameaça existente no globo terrestre, designando sempre claramente o mais próximo do local.
+## Executando o Projeto
 
-#### Etapas
+Para executar o projeto, siga as instruções abaixo:
 
-Lembre-se de avisar o RH quais etapas você entregará e sua expectativa de prazo de entrega!
-
-##### Nível 1 - Autenticação e Cadastro
-
-Monte um sistema onde o usuário administrativo pode se cadastrar e se autenticar, para uma plataforma logada.
-
-##### Nível 2 - CRUD
-
-Na plataforma logada, o administrador deve conseguir cadastrar, editar, remover e listar heróis. Leia as próximas etapas para modelar corretamente os atributos de um herói.
-
-##### Nível 3 - Alocação de heróis
-
-Para essa parte do desafio, você deve ouvir as notificações de um sistema de emissão desenvolvido pela ONU que informa ameaças de maneira aleatória pelo globo.
-
-O líder de operações do departamento de heróis ordenou as seguintes regras para garantir que as ameaças sejam devidamente resolvidas:
-
-- Cada **Herói** e cada **Ameaça** tem um rank
-- Os heróis devem ser alocados de acordo com sua localização (mais próximo sempre) e rank adequado ao nível de ameaças
-- Após determinado tempo os heróis devem ser desalocados
-- Os ranks são os seguintes:
-
-**Heroes**
-Classe S, A, B e C.
-
-**Ameaças**
-Nível God, Dragon, Tiger e Wolf.
-
-- Heróis do rank classe "S" tem prioridade sobre ameaças do tipo "God" - uma batalha com uma ameaça desse nível deve durar no mínimo 5 minutos e no máximo 10 minutos;
-- Heróis do rank classe "A" tem prioridade sobre ameaças do tipo "Dragon" - uma batalha com uma ameaça desse nível deve durar no mínimo 2 minutos e no máximo 5 minutos;
-- Heróis do rank classe "B" tem prioridade sobre ameaças do tipo "Tiger" - uma batalha com uma ameaça desse nível deve durar no mínimo 10 segundos e no máximo 20 segundos;
-- Heróis do rank classe "C" tem prioridade sobre ameaças do tipo "Wolf" - uma batalha com uma ameaça desse nível deve durar no mínimo 1 segundo e no máximo 2 segundos;
-
-Você devera consumir um socket (construído utilizando o **socket.io**) que retorna as informações das ameaças detectadas.
-
-Cada ameça tem o seguinte formato:
-
-```json
-{
-    "location": [{
-        "lat": -5.836597,
-        "lng": -35.236007,
-    }],
-    "dangerLevel": "Dragon",
-    "monsterName": "Black Dragon",
-    "monster": {
-      "key": "value"
-    }
-}
-```
-
-A url do serviço é `https://zrp-challenges-dev-production.up.railway.app/`, esse serviço emite um evento `occurrence`, indicando uma nova ameaça, a cada 30s.
-
-Você pode ver as ameaças em tempo real acessando https://zrp-challenges-dev-demo-production.up.railway.app/.
-
-Não sabe como se conectar e ouvir a eventos do socket.io? Veja a documentação [nesse link](https://socket.io/docs/v4/).
-
-##### Nível 4 - Histórico de ameaças
-
-Nos mostre em uma tela bonita e chamativa qual herói combateu qual ameaça e quanto tempo durou a ameaça.
-
-##### Nível 5 - Alocações inteligentes
-
-Você pode alocar o dobro de heróis de ranking menor para lidar com uma ameaça de ranking superior caso eles estejam mais próximos que o herói devido da ameaça daquele nível.
-
-Ou seja, o dobro da força heroica é o suficiente para batalhar com a ameaça de nível superior.
-
-### Tecnologias
-
-**Frontend**
-
-- Vue
-- Angular
-- React
-
-**Backend**
-
-- Node.Js
-- Ruby
-- Python
-- Elixir
-- C#
-- Go
-- PHP
-- Java
-
-Para persistir os dados utilize o meio que achar mais conveniente :).
-
-### O que iremos avaliar
-
-- Modelagem de Dados
-- Domínio da Linguagem
-- Legibilidade do Código
-- Estrutura do Código
-- Organização do Código
-- Design Patterns
-- Manutenibilidade do Código
-- Testes Unitários e Cobertura de Testes
-- Uso do git
-- Virtualização e documentação do ambiente
+1. Acesse o README da pasta respectiva do front-end e backend e leia o passo a passo.
