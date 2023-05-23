@@ -3,6 +3,7 @@
   <img src="https://prismalens.vercel.app/header/logo-dark.svg" alt="Nest.js Logo" width="200">
 </div>
 
+
 Tecnologias Utilizadas:
 - Nest.js (v8.0.0): Framework Node.js para construção de aplicativos escaláveis e eficientes.
 - Prisma (v3.8.1): ORM (Object-Relational Mapping) para interação com banco de dados.
@@ -14,12 +15,16 @@ projeto
 └── dev
     └── backend
         ├── src
-        │   ├── controllers
-        │   ├── services
-        │   ├── models
+        │   ├── auth
+        │   ├── heros
+        │   ├── history
         │   ├── utils
-        │   ├── migrations
+        │   ├── prisma
+        │   ├── threats
+        │   ├── user
         │   ├── app.module.ts
+        │   ├── app.controller.ts
+        │   ├── app.service.ts
         │   └── main.ts
         ├── prisma
         ├── README.md
@@ -27,7 +32,6 @@ projeto
 ```
 
 Instruções para Execução:
-------------------------------
 
 1. Certifique-se de ter o Node.js (v16.17.1) e o banco de dados (MySQL, PostgreSQL, etc.) instalados em sua máquina.
 
@@ -45,12 +49,10 @@ cd projeto/dev/backend
 ```
 npm install
 ```
+5. Configure as variáveis de ambiente necessárias. Crie um arquivo `.env` na raiz do projeto e defina as variáveis de acordo com o `.env.example`.
 
-5. Configure as variáveis de ambiente necessárias. Crie um arquivo `.env` na raiz do projeto e defina as variáveis de acordo com suas configurações.
+6. Execute as migrações do banco de dados:
 
-6. Execute as
-
- migrações do banco de dados:
 ```
 npx prisma migrate dev
 ```
@@ -61,5 +63,17 @@ npm run start:dev
 ```
 
 8. O servidor será iniciado e estará aguardando requisições na porta definida (geralmente 3000).
+
+
+
+
+9. (Opcional) Se preferir, você pode executar o projeto usando o Docker. Certifique-se de ter o Docker instalado em sua máquina.
+
+10. Na raiz do projeto backend, você tem o arquivo `docker-compose.yml`. Abra o terminal na pasta raiz e execute o seguinte comando para iniciar o container do banco de dados:
+
+
+```
+docker-compose up -d
+```
 
 Observação: Certifique-se de que o serviço de banco de dados esteja em execução e que as configurações de conexão estejam corretas no arquivo `.env`.
