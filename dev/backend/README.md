@@ -72,11 +72,15 @@ npm run start:dev
 
 10. O servidor será iniciado e estará aguardando requisições na porta definida (geralmente 3000).
 
-
-
-
-
-
-
-
 Observação: Certifique-se de que o serviço de banco de dados esteja em execução e que as configurações de conexão estejam corretas no arquivo `.env`.
+
+
+11. Execute os testes do projeto:
+
+```
+npm run test
+```
+
+Isso iniciará a execução dos testes automatizados do projeto e exibirá os resultados no terminal. Certifique-se de que o servidor esteja em execução ou pare o servidor antes de executar os testes.
+
+
